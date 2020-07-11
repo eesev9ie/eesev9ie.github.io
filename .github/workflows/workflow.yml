@@ -22,7 +22,7 @@ jobs:
           # The branch to push the built site to
           branch: master
           # The repo to push the built site to
-          repo: leesev9io/eesev9io.github.io
+          repo: eesev9io/eesev9io.github.io
           # The version of hugo to use
           hugoVersion: 0.69.0
           # Arguments to pass to Hugo
