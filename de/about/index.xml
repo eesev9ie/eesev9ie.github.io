@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Über die Schule on Georg-Cantor-Gymnasium</title>
-    <link>https://eesev9ie.netlify.app/de/about/</link>
+    <link>https://lxdb.github.io/de/about/</link>
     <description>Recent content in Über die Schule on Georg-Cantor-Gymnasium</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <copyright>Copyright &amp;copy; 2020 Georg-Cantor-Gymnasium Halle</copyright>
     
-	<atom:link href="https://eesev9ie.netlify.app/de/about/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lxdb.github.io/de/about/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
