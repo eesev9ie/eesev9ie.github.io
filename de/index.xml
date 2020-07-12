@@ -22,6 +22,15 @@
     </item>
     
     <item>
+      <title>Aufnahmeantrag</title>
+      <link>https://eesev9ie.github.io/de/forms/anmeldeformular/</link>
+      <pubDate>Sun, 12 Jul 2020 15:27:17 +0600</pubDate>
+      
+      <guid>https://eesev9ie.github.io/de/forms/anmeldeformular/</guid>
+      <description>Hier kann das Anmeldeformular für die Aufnahmeprüfung am Georg-Cantor-Gymnasium heruntergeladen werden.</description>
+    </item>
+    
+    <item>
       <title>Gesundheitsbogen Coronavirus</title>
       <link>https://eesev9ie.github.io/de/forms/gesundheitsbogen/</link>
       <pubDate>Thu, 09 Jul 2020 15:27:17 +0600</pubDate>
@@ -58,6 +67,25 @@
     </item>
     
     <item>
+      <title>Anmeldung</title>
+      <link>https://eesev9ie.github.io/de/anmeldung/anmeldung-formular/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://eesev9ie.github.io/de/anmeldung/anmeldung-formular/</guid>
+      <description>Bis zum 11.02.2020 müssen:
+ eine schriftliche Anmeldung eine Kopie des Halbjahreszeugnisses die Schullaufbahnerklärung  am Georg-Cantor-Gymnasium eingereicht werden.</description>
+    </item>
+    
+    <item>
+      <title>Aufnahmeprüfung</title>
+      <link>https://eesev9ie.github.io/de/anmeldung/aufnahmepr%C3%BCfung/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://eesev9ie.github.io/de/anmeldung/aufnahmepr%C3%BCfung/</guid>
+      <description>Zur Aufnahme am Georg-Cantor-Gymnasium muss eine Aufnahmeprüfung absolviert werden, die aus:</description>
+    </item>
+    
+    <item>
       <title>CantorTechnik AG</title>
       <link>https://eesev9ie.github.io/de/author/cantortechnik-ag/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -76,6 +104,15 @@
     </item>
     
     <item>
+      <title>Ergebnisse</title>
+      <link>https://eesev9ie.github.io/de/anmeldung/ergebnisse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://eesev9ie.github.io/de/anmeldung/ergebnisse/</guid>
+      <description>Bis zum 20.04.2020 werden ihnen die Ergebnisse der Aufnahmeprüfung schriftlich mitgeteilt.</description>
+    </item>
+    
+    <item>
       <title>Frau Schapitz</title>
       <link>https://eesev9ie.github.io/de/teacher/cschapitz/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -83,33 +120,6 @@
       <guid>https://eesev9ie.github.io/de/teacher/cschapitz/</guid>
       <description>Claudia Schapitz Selbstbeschreibung
 Kontakt </description>
-    </item>
-    
-    <item>
-      <title>GÉNIE CHIMIQUE</title>
-      <link>https://eesev9ie.github.io/de/scholarship/scholarship-1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://eesev9ie.github.io/de/scholarship/scholarship-1/</guid>
-      <description> instituts Recherche intelligemment affiliée Accès numérique aux bourses d’étude Catalyse intelligente Portail vers une bibliothèque intelligente Programmes de recherche intelligente  </description>
-    </item>
-    
-    <item>
-      <title>GÉNIE CHIMIQUE</title>
-      <link>https://eesev9ie.github.io/de/scholarship/scholarship-2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://eesev9ie.github.io/de/scholarship/scholarship-2/</guid>
-      <description> instituts Recherche intelligemment affiliée Accès numérique aux bourses d’étude Catalyse intelligente Portail vers une bibliothèque intelligente Programmes de recherche intelligente  </description>
-    </item>
-    
-    <item>
-      <title>GÉNIE CHIMIQUE</title>
-      <link>https://eesev9ie.github.io/de/scholarship/scholarship-3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://eesev9ie.github.io/de/scholarship/scholarship-3/</guid>
-      <description> instituts Recherche intelligemment affiliée Accès numérique aux bourses d’étude Catalyse intelligente Portail vers une bibliothèque intelligente Programmes de recherche intelligente  </description>
     </item>
     
     <item>
@@ -173,7 +183,7 @@ stellv. Schulleiterin: Frau Schapitz</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://eesev9ie.github.io/de/teacher/yves-bauer/</guid>
-      <description></description>
+      <description>Biografie Kontakt </description>
     </item>
     
   </channel>

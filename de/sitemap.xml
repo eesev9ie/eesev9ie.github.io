@@ -38,8 +38,13 @@
   </url>
   
   <url>
+    <loc>https://eesev9ie.github.io/de/forms/anmeldeformular/</loc>
+    <lastmod>2020-07-12T15:27:17+06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://eesev9ie.github.io/de/forms/</loc>
-    <lastmod>2020-07-09T15:27:17+06:00</lastmod>
+    <lastmod>2020-07-12T15:27:17+06:00</lastmod>
   </url>
   
   <url>
@@ -128,6 +133,18 @@
   </url>
   
   <url>
+    <loc>https://eesev9ie.github.io/de/anmeldung/</loc>
+  </url>
+  
+  <url>
+    <loc>https://eesev9ie.github.io/de/anmeldung/anmeldung-formular/</loc>
+  </url>
+  
+  <url>
+    <loc>https://eesev9ie.github.io/de/anmeldung/aufnahmepr%C3%BCfung/</loc>
+  </url>
+  
+  <url>
     <loc>https://eesev9ie.github.io/de/author/</loc>
     <xhtml:link
                 rel="alternate"
@@ -142,20 +159,6 @@
   </url>
   
   <url>
-    <loc>https://eesev9ie.github.io/de/scholarship/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://eesev9ie.github.io/en/scholarship/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://eesev9ie.github.io/de/scholarship/"
-                />
-  </url>
-  
-  <url>
     <loc>https://eesev9ie.github.io/de/author/cantortechnik-ag/</loc>
   </url>
   
@@ -164,49 +167,11 @@
   </url>
   
   <url>
+    <loc>https://eesev9ie.github.io/de/anmeldung/ergebnisse/</loc>
+  </url>
+  
+  <url>
     <loc>https://eesev9ie.github.io/de/teacher/cschapitz/</loc>
-  </url>
-  
-  <url>
-    <loc>https://eesev9ie.github.io/de/scholarship/scholarship-1/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://eesev9ie.github.io/en/scholarship/scholarship-1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://eesev9ie.github.io/de/scholarship/scholarship-1/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://eesev9ie.github.io/de/scholarship/scholarship-2/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://eesev9ie.github.io/en/scholarship/scholarship-2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://eesev9ie.github.io/de/scholarship/scholarship-2/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://eesev9ie.github.io/de/scholarship/scholarship-3/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://eesev9ie.github.io/en/scholarship/scholarship-3/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://eesev9ie.github.io/de/scholarship/scholarship-3/"
-                />
   </url>
   
   <url>

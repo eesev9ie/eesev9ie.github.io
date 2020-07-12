@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <copyright>Copyright &amp;copy; 2020 Georg-Cantor-Gymnasium Halle</copyright>
-    <lastBuildDate>Thu, 09 Jul 2020 15:27:17 +0600</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jul 2020 15:27:17 +0600</lastBuildDate>
     
 	<atom:link href="https://eesev9ie.github.io/de/forms/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Aufnahmeantrag</title>
+      <link>https://eesev9ie.github.io/de/forms/anmeldeformular/</link>
+      <pubDate>Sun, 12 Jul 2020 15:27:17 +0600</pubDate>
+      
+      <guid>https://eesev9ie.github.io/de/forms/anmeldeformular/</guid>
+      <description>Hier kann das Anmeldeformular für die Aufnahmeprüfung am Georg-Cantor-Gymnasium heruntergeladen werden.</description>
+    </item>
     
     <item>
       <title>Gesundheitsbogen Coronavirus</title>
