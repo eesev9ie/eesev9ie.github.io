@@ -8,6 +8,7 @@ media_folder: "static/images"
 public_folder: "/images"
 site_url: https://eesev9ie.github.io
 display_url: https://eesev9ie.github.io
+logo_url: https://eesev9ie.github.io/images/logo_y.svg
 locale: "de"
 
 collections:
