@@ -11,5 +11,61 @@
 	<atom:link href="https://eesev9ie.github.io/de/about/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Chronologie</title>
+      <link>https://eesev9ie.github.io/de/about/chronologie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://eesev9ie.github.io/de/about/chronologie/</guid>
+      <description>tempus praeteritum
+ 1986 Beschluss des Rates des Bezirkes Halle zur Gründung einer Spezialschule mathematisch – naturwissenschaftlich – technischer Richtung</description>
+    </item>
+    
+    <item>
+      <title>Der Weg zum GCG</title>
+      <link>https://eesev9ie.github.io/de/about/aufnahmeverfahren/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://eesev9ie.github.io/de/about/aufnahmeverfahren/</guid>
+      <description>Seit der Gründung der Spezialschule 1988 hat sich die Aufnahmeprozedur für Schülerinnen und Schüler stark verändert.</description>
+    </item>
+    
+    <item>
+      <title>Odyssee des GCG: von der „Schimmelschule“ zum „Schmuckstück“</title>
+      <link>https://eesev9ie.github.io/de/about/odyssee-des-gcg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://eesev9ie.github.io/de/about/odyssee-des-gcg/</guid>
+      <description>1995 erste Überlegungen zur Rekonstruktion des Gebäudes in der Muldestraße 3</description>
+    </item>
+    
+    <item>
+      <title>Signaturen der Zeit</title>
+      <link>https://eesev9ie.github.io/de/about/t%C3%BCr%C3%BCberschriften-torstra%C3%9Fe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://eesev9ie.github.io/de/about/t%C3%BCr%C3%BCberschriften-torstra%C3%9Fe/</guid>
+      <description>Im alte Schulhaus des Torgymnasiums wurden bei der Renovierung verschiedene Zitate neuer Glanz verliehen.</description>
+    </item>
+    
+    <item>
+      <title>Traditionen</title>
+      <link>https://eesev9ie.github.io/de/about/traditionen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://eesev9ie.github.io/de/about/traditionen/</guid>
+      <description>1. Der Cantorpreis Seit 1995, dem Jahr des 150. Geburtstages Georg Cantors, wird jährlich ein herausragender Schüler bzw.</description>
+    </item>
+    
+    <item>
+      <title>Über Georg Cantor</title>
+      <link>https://eesev9ie.github.io/de/about/cantor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://eesev9ie.github.io/de/about/cantor/</guid>
+      <description>Georg Cantor (03.03.1845 - 06.01.1918)
+&amp;ldquo;In der Mathematik ist die Kunst des Fragen stellens wichtiger, als die des Lösens.</description>
+    </item>
+    
   </channel>
 </rss>
