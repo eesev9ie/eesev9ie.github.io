@@ -142,10 +142,6 @@
   </url>
   
   <url>
-    <loc>https://eesev9ie.github.io/de/statistiken/mitarbeiterliste/</loc>
-  </url>
-  
-  <url>
     <loc>https://eesev9ie.github.io/de/cantorfora/cantorforum-1/</loc>
   </url>
   
@@ -683,6 +679,10 @@
                 hreflang="de"
                 href="https://eesev9ie.github.io/de/teacher/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://eesev9ie.github.io/de/statistiken/mitarbeiterliste/</loc>
   </url>
   
   <url>
