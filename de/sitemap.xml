@@ -3,6 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://eesev9ie.github.io/de/forms/alarmordnung/</loc>
+    <lastmod>2020-08-11T15:27:17+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eesev9ie.github.io/de/forms/hausordnung/</loc>
+    <lastmod>2020-08-11T15:27:17+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eesev9ie.github.io/de/forms/kurswechsel/</loc>
+    <lastmod>2020-08-11T15:27:17+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eesev9ie.github.io/de/forms/</loc>
+    <lastmod>2020-08-11T15:27:17+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eesev9ie.github.io/de/</loc>
+    <lastmod>2020-08-11T15:27:17+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eesev9ie.github.io/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://eesev9ie.github.io/de/"
+                />
+  </url>
+  
+  <url>
     <loc>https://eesev9ie.github.io/de/blog/</loc>
     <lastmod>2020-07-18T09:08:19+00:00</lastmod>
     <xhtml:link
@@ -45,21 +80,6 @@
   <url>
     <loc>https://eesev9ie.github.io/de/blog/new-site/</loc>
     <lastmod>2020-07-18T09:08:19+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://eesev9ie.github.io/de/</loc>
-    <lastmod>2020-07-18T09:08:19+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://eesev9ie.github.io/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://eesev9ie.github.io/de/"
-                />
   </url>
   
   <url>
@@ -109,11 +129,6 @@
   
   <url>
     <loc>https://eesev9ie.github.io/de/forms/anmeldeformular/</loc>
-    <lastmod>2020-07-12T15:27:17+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://eesev9ie.github.io/de/forms/</loc>
     <lastmod>2020-07-12T15:27:17+06:00</lastmod>
   </url>
   
