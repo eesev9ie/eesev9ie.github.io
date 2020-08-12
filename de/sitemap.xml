@@ -3,6 +3,51 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://eesev9ie.github.io/de/</loc>
+    <lastmod>2020-08-12T14:17:21+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eesev9ie.github.io/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://eesev9ie.github.io/de/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eesev9ie.github.io/de/notice/</loc>
+    <lastmod>2020-08-12T14:17:21+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eesev9ie.github.io/en/notice/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://eesev9ie.github.io/de/notice/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eesev9ie.github.io/de/notice/notice-1/</loc>
+    <lastmod>2020-08-12T14:17:21+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eesev9ie.github.io/en/notice/notice-1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://eesev9ie.github.io/de/notice/notice-1/"
+                />
+  </url>
+  
+  <url>
     <loc>https://eesev9ie.github.io/de/forms/alarmordnung/</loc>
     <lastmod>2020-08-11T15:27:17+06:00</lastmod>
   </url>
@@ -20,21 +65,6 @@
   <url>
     <loc>https://eesev9ie.github.io/de/forms/</loc>
     <lastmod>2020-08-11T15:27:17+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://eesev9ie.github.io/de/</loc>
-    <lastmod>2020-08-11T15:27:17+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://eesev9ie.github.io/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://eesev9ie.github.io/de/"
-                />
   </url>
   
   <url>
@@ -700,20 +730,6 @@
   </url>
   
   <url>
-    <loc>https://eesev9ie.github.io/de/notice/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://eesev9ie.github.io/en/notice/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://eesev9ie.github.io/de/notice/"
-                />
-  </url>
-  
-  <url>
     <loc>https://eesev9ie.github.io/de/impressum/</loc>
   </url>
   
@@ -811,20 +827,6 @@
   
   <url>
     <loc>https://eesev9ie.github.io/de/verabschiedung-herr-dr-m%C3%BCller/</loc>
-  </url>
-  
-  <url>
-    <loc>https://eesev9ie.github.io/de/notice/notice-1/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://eesev9ie.github.io/en/notice/notice-1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://eesev9ie.github.io/de/notice/notice-1/"
-                />
   </url>
   
   <url>
