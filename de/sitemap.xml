@@ -3,8 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://eesev9ie.github.io/de/event/vorstellung-website/</loc>
+    <lastmod>2020-08-27T07:30:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://eesev9ie.github.io/de/</loc>
-    <lastmod>2020-08-12T14:17:21+00:00</lastmod>
+    <lastmod>2020-08-27T07:30:00+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -14,6 +19,21 @@
                 rel="alternate"
                 hreflang="de"
                 href="https://eesev9ie.github.io/de/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eesev9ie.github.io/de/event/</loc>
+    <lastmod>2020-08-27T07:30:00+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eesev9ie.github.io/en/event/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://eesev9ie.github.io/de/event/"
                 />
   </url>
   
@@ -135,26 +155,6 @@
                 hreflang="de"
                 href="https://eesev9ie.github.io/de/tags/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://eesev9ie.github.io/de/event/</loc>
-    <lastmod>2020-07-15T15:00:00+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://eesev9ie.github.io/en/event/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://eesev9ie.github.io/de/event/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://eesev9ie.github.io/de/event/vorstellung-website/</loc>
-    <lastmod>2020-07-15T15:00:00+01:00</lastmod>
   </url>
   
   <url>

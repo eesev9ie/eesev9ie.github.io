@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <copyright>Copyright &amp;copy; 2020 Georg-Cantor-Gymnasium Halle</copyright>
-    <lastBuildDate>Wed, 12 Aug 2020 14:17:21 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2020 07:30:00 +0100</lastBuildDate>
     
 	<atom:link href="https://eesev9ie.github.io/de/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Beginn Schuljahr 2020/2021</title>
+      <link>https://eesev9ie.github.io/de/event/vorstellung-website/</link>
+      <pubDate>Thu, 27 Aug 2020 07:30:00 +0100</pubDate>
+      
+      <guid>https://eesev9ie.github.io/de/event/vorstellung-website/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Website im Entwicklungsstadium</title>
@@ -55,15 +64,6 @@
       
       <guid>https://eesev9ie.github.io/de/blog/new-site/</guid>
       <description>Neuanfang Seit Anfang Juli arbeite ich an einer neuen Website für das Georg-Cantor-Gymnasium in Halle und stelle ihnen damit die erste Vorversion vor.</description>
-    </item>
-    
-    <item>
-      <title>Vorstellung Website Vorversion</title>
-      <link>https://eesev9ie.github.io/de/event/vorstellung-website/</link>
-      <pubDate>Wed, 15 Jul 2020 15:00:00 +0100</pubDate>
-      
-      <guid>https://eesev9ie.github.io/de/event/vorstellung-website/</guid>
-      <description>Bei der abschließenden Dienstberatung am 15.07.2020 wird die Vorversion der neuen Schulwebsite den Lehrern vorgestellt.</description>
     </item>
     
     <item>
