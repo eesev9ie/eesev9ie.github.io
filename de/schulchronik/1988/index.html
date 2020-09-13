@@ -30,6 +30,25 @@
   <link rel="shortcut icon" href="https://eesev9ie.github.io/media/favicon.png" type="image/x-icon">
   <link rel="icon" href="https://eesev9ie.github.io/media/favicon.png" type="image/x-icon">
 
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+  crossorigin=""/>
+
+
+
+  
+ <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+
+<style>
+  #map {
+    height: 500px;
+    border: 1px solid #aaa;
+    border-radius: 15px;
+  }
+</style>
+
 </head>
 <body>
 <!-- preloader start -->
@@ -179,44 +198,93 @@
     <div class="row">
       <div class="col-md-8">
         <ul class="list-inline custom-breadcrumb">
-          <li class="list-inline-item h2"><a class="text-primary font-secondary" href="https://eesev9ie.github.io/">Startseite</a></li>
-          <li class="list-inline-item h5"><i class="ti-angle-right text-white"></i></li>
-          <li class="list-inline-item text-white h3 font-secondary">1988</li>
+          <li class="list-inline-item h1"><a class="text-primary font-secondary" href="https://eesev9ie.github.io/">Startseite</a></li>
+          <li class="list-inline-item h2"><i class="ti-angle-right text-white"></i></li>
+          <li class="list-inline-item text-white h1 font-secondary">1988</li>
         </ul>
         <p class="text-lighten"></p>
       </div>
     </div>
   </div>
 </section>
+
 	
 
 
 <section class="section-sm">
   <div class="container">
+    
+        
     <div class="row">
       <div class="col-12 mb-4">
         
-        <img style="height: 500px;width: 100%;object-fit: cover;" src="/media/image.png"
-          class="img-fluid w-100">
-      </div>
-    </div>
-    <div>
-      <h2>1988</h2>
-    </div>
-    <div class="content">
-    <aside>
-      <nav id="TableOfContents">
-  <ul>
-    <li><a href="#ad-fontes--zu-den-ursprüngen">„Ad fontes – zu den Ursprüngen“</a></li>
-    <li><a href="#schulalltag-in-der-neuen-spezialschule">Schulalltag in der neuen Spezialschule</a></li>
-  </ul>
-</nav>
-    </aside>
+
+
+
+  
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="/js/load-photoswipe.js"></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css" integrity="sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
     </div>
     
-    <div class="row">
-      <div class="col-12 mb-4 content">
-        <h2 id="ad-fontes--zu-den-ursprüngen">„Ad fontes – zu den Ursprüngen“</h2>
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+<div class="container">
+  <div class="card border-primary rounded-0 hover-shadow mb-5">
+    <div class="card-body">
+      <details>
+      <summary>„Ad fontes – zu den Ursprüngen“</summary>
+      <div class="content"><p class="content">
 <p>Im Jahr 1986 gab es in der damaligen DDR bereits einige Spezialschulen mathematisch – naturwissenschaftlich – technischer Richtung.
 Der Bezirk Halle verfügte noch nicht über eine solche Einrichtung.
 Es existierten zwar bereits Spezialklassen an der MLU und der TH Merseburg, in denen mathematisch – naturwissenschaftlich besonders begabte Jugendliche gefördert wurden, doch der Industriebezirk Halle mit seinen Standorten Leuna und Buna verlangte zunehmend nach hochqualifizierten und leistungsbereiten jungen Menschen.
@@ -236,9 +304,7 @@ Die Übersicht veranschaulicht das „procedere“ und die Veränderungen idm Sy
 <p><img src="/media/schulchronik/gr%C3%BCndung/lehrer_ad_fontes.jpg" alt="Lehrer ad fontes"></p>
 <p>Im Zuge der politischen Umwälzung erfolgte erstmal die Wahl eines Schulleiters durch die Gesamtkonferenz der Schule. Auf der 1. Gesamtkonferenz wählte diese Herrn Dr. Müller mit großer Mehrheit zum Direktor unserer Schule. Auch der Name des Spezialgymnasiums stand 1990 zur Diskussion. Die Entscheidung fiel zugunsten des berühmten halleschen Mathematikers
 Georg Cantor. Dieser Name wurde dem Gymnasium am 07.03.1991 verliehen.</p>
-<p>
 <link rel="stylesheet" href="/css/hugo-easy-gallery.css" />
-
 <div class="gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
 				<div class="box">
 				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
@@ -318,75 +384,20 @@ Georg Cantor. Dieser Name wurde dem Gymnasium am 07.03.1991 verliehen.</p>
 				  </figure>
 				</div>
 </div>
-
-
-
-
-  
-
-
-<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-<script src="/js/load-photoswipe.js"></script>
-
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin="anonymous" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css" integrity="sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=" crossorigin="anonymous" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
-
-
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-
-<div class="pswp__bg"></div>
-
-<div class="pswp__scroll-wrap">
-    
-    <div class="pswp__container">
-      <div class="pswp__item"></div>
-      <div class="pswp__item"></div>
-      <div class="pswp__item"></div>
+</p></div>
+      </details>
     </div>
-    
-    <div class="pswp__ui pswp__ui--hidden">
-    <div class="pswp__top-bar">
-      
-      <div class="pswp__counter"></div>
-      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-      <button class="pswp__button pswp__button--share" title="Share"></button>
-      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-      
-      
-      <div class="pswp__preloader">
-        <div class="pswp__preloader__icn">
-          <div class="pswp__preloader__cut">
-            <div class="pswp__preloader__donut"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-      <div class="pswp__share-tooltip"></div>
-    </div>
-    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-    </button>
-    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-    </button>
-    <div class="pswp__caption">
-      <div class="pswp__caption__center"></div>
-    </div>
-    </div>
-    </div>
+  </div>
 </div>
-
-</p>
-<h2 id="schulalltag-in-der-neuen-spezialschule">Schulalltag in der neuen Spezialschule</h2>
+<div class="container">
+  <div class="card border-primary rounded-0 hover-shadow mb-5">
+    <div class="card-body">
+      <details>
+      <summary>Schulalltag in der neuen Spezialschule</summary>
+      <div class="content"><p class="content">
 <p>Die sorgfältig ausgewählten Schüler wurden in kleinen Klassen unterrichtet, daher bestanden diese in den Anfangsjahren aus lediglich 18 Schülern, von denen die meisten Jungen waren.
 Die Arbeitsatmosphäre ist deshalb auch mit der heutigen nicht zu vergleichen, da die Beziehungen untereinander durch die geringe Klassenstärke enger waren. Beispielsweise fragten die Schüler nach einiger Zeit, ob sie den Schulstoff nicht schneller behandeln könnten, weil sie es verstanden hätten. Heute würde das vermutlich keiner mehr vorschlagen. Auch die technische Ausstattung der Schule war sehr gut, sodass die Schüler viele verschiedene Experimente durchführen konnten.
 Die umfangreiche und fortschrittliche Einrichtung spiegelt sich auch in dem vollständig eingerichteten Computerkabinett wider. Insgesamt herrschte in den Unterrichtsräumen eine eher kreative und positiv von den Schüler geprägte Atmosphäre.</p>
-<p>
-
-
 <div class="gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
 				<div class="box">
 				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
@@ -466,16 +477,14 @@ Die umfangreiche und fortschrittliche Einrichtung spiegelt sich auch in dem voll
 				  </figure>
 				</div>
 </div>
-
-
-
-
-</p>
-
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://www.youtube.com/embed/IoinnnyrG0M" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
-
+</p></div>
+      </details>
+    </div>
+  </div>
+</div>
 
       </div>
       

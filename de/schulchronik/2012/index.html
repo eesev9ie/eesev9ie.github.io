@@ -30,6 +30,25 @@
   <link rel="shortcut icon" href="https://eesev9ie.github.io/media/favicon.png" type="image/x-icon">
   <link rel="icon" href="https://eesev9ie.github.io/media/favicon.png" type="image/x-icon">
 
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+  crossorigin=""/>
+
+
+
+  
+ <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+
+<style>
+  #map {
+    height: 500px;
+    border: 1px solid #aaa;
+    border-radius: 15px;
+  }
+</style>
+
 </head>
 <body>
 <!-- preloader start -->
@@ -179,81 +198,26 @@
     <div class="row">
       <div class="col-md-8">
         <ul class="list-inline custom-breadcrumb">
-          <li class="list-inline-item h2"><a class="text-primary font-secondary" href="https://eesev9ie.github.io/">Startseite</a></li>
-          <li class="list-inline-item h5"><i class="ti-angle-right text-white"></i></li>
-          <li class="list-inline-item text-white h3 font-secondary">2012</li>
+          <li class="list-inline-item h1"><a class="text-primary font-secondary" href="https://eesev9ie.github.io/">Startseite</a></li>
+          <li class="list-inline-item h2"><i class="ti-angle-right text-white"></i></li>
+          <li class="list-inline-item text-white h1 font-secondary">2012</li>
         </ul>
         <p class="text-lighten"></p>
       </div>
     </div>
   </div>
 </section>
+
 	
 
 
 <section class="section-sm">
   <div class="container">
+    
+        
     <div class="row">
       <div class="col-12 mb-4">
         
-        <img style="height: 500px;width: 100%;object-fit: cover;" src="/media/image.png"
-          class="img-fluid w-100">
-      </div>
-    </div>
-    <div>
-      <h2>2012</h2>
-    </div>
-    <div class="content">
-    <aside>
-      <nav id="TableOfContents">
-  <ul>
-    <li><a href="#tag-der-kulturen">„Tag der Kulturen“</a></li>
-    <li><a href="#sonstiges">Sonstiges</a></li>
-  </ul>
-</nav>
-    </aside>
-    </div>
-    
-    <div class="row">
-      <div class="col-12 mb-4 content">
-        <h2 id="tag-der-kulturen">„Tag der Kulturen“</h2>
-<blockquote>
-<p>am 17.12.2012</p>
-</blockquote>
-<p>Heute konnten alle fröhlich sein: Schüler und Lehrer.</p>
-<p>Warum? Heute ist der Tag der Kulturen an unserer Schule, was bedeutet, dass wir alle länger schlafen können.</p>
-<p>Heute machen wir unserem Titel - „Schule ohne Rassismus, Schule mit Courage“ - alle Ehre:
-Heute stellen Schüler den besonderen Bezug, welchen sie zu einem Land oder einer Kultur haben, vor.</p>
-<p>Es sind auch Gäste anwesend, die ebenfalls besonderen Bezug zu einer Kultur haben.</p>
-<p>Dieser Tag war schon lange in Planung, heute ist es endlich so weit. Und damit auch niemand hungern muss, hat die ganze Schule ein Buffet zusammengestellt. Jede Klasse hat Essen zu einem bestimmten Land mitgebracht. Das Spektrum war riesig: Von amerikanischen HotDogs, Wraps und Cupcakes bis hin zu schwedischen und polnischen Leckereien.</p>
-<p>
-<link rel="stylesheet" href="/css/hugo-easy-gallery.css" />
-
-<div class="gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
-				<div class="box">
-				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('https://eesev9ie.github.io//media/schulchronik/2012/01/cimg2619.jpg');" >
-				      <img itemprop="thumbnail" src="https://eesev9ie.github.io//media/schulchronik/2012/01/cimg2619.jpg" alt="Cimg2619" />
-				    </div>
-			      <figcaption>
-		          <p>Cimg2619</p>
-			      </figcaption>
-				    <a href="https://eesev9ie.github.io//media/schulchronik/2012/01/cimg2619.jpg" itemprop="contentUrl"></a>
-				  </figure>
-				</div>
-				<div class="box">
-				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('https://eesev9ie.github.io//media/schulchronik/2012/01/cimg2620.jpg');" >
-				      <img itemprop="thumbnail" src="https://eesev9ie.github.io//media/schulchronik/2012/01/cimg2620.jpg" alt="Cimg2620" />
-				    </div>
-			      <figcaption>
-		          <p>Cimg2620</p>
-			      </figcaption>
-				    <a href="https://eesev9ie.github.io//media/schulchronik/2012/01/cimg2620.jpg" itemprop="contentUrl"></a>
-				  </figure>
-				</div>
-</div>
-
 
 
 
@@ -314,12 +278,49 @@ Heute stellen Schüler den besonderen Bezug, welchen sie zu einem Land oder eine
     </div>
 </div>
 
-</p>
+
+<div class="container">
+  <div class="card border-primary rounded-0 hover-shadow mb-5">
+    <div class="card-body">
+      <details>
+      <summary>„Tag der Kulturen“</summary>
+      <div class="content"><p class="content">
+<blockquote>
+<p>am 17.12.2012</p>
+</blockquote>
+<p>Heute konnten alle fröhlich sein: Schüler und Lehrer.</p>
+<p>Warum? Heute ist der Tag der Kulturen an unserer Schule, was bedeutet, dass wir alle länger schlafen können.</p>
+<p>Heute machen wir unserem Titel - „Schule ohne Rassismus, Schule mit Courage“ - alle Ehre:
+Heute stellen Schüler den besonderen Bezug, welchen sie zu einem Land oder einer Kultur haben, vor.</p>
+<p>Es sind auch Gäste anwesend, die ebenfalls besonderen Bezug zu einer Kultur haben.</p>
+<p>Dieser Tag war schon lange in Planung, heute ist es endlich so weit. Und damit auch niemand hungern muss, hat die ganze Schule ein Buffet zusammengestellt. Jede Klasse hat Essen zu einem bestimmten Land mitgebracht. Das Spektrum war riesig: Von amerikanischen HotDogs, Wraps und Cupcakes bis hin zu schwedischen und polnischen Leckereien.</p>
+<link rel="stylesheet" href="/css/hugo-easy-gallery.css" />
+<div class="gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://eesev9ie.github.io//media/schulchronik/2012/01/cimg2619.jpg');" >
+				      <img itemprop="thumbnail" src="https://eesev9ie.github.io//media/schulchronik/2012/01/cimg2619.jpg" alt="Cimg2619" />
+				    </div>
+			      <figcaption>
+		          <p>Cimg2619</p>
+			      </figcaption>
+				    <a href="https://eesev9ie.github.io//media/schulchronik/2012/01/cimg2619.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://eesev9ie.github.io//media/schulchronik/2012/01/cimg2620.jpg');" >
+				      <img itemprop="thumbnail" src="https://eesev9ie.github.io//media/schulchronik/2012/01/cimg2620.jpg" alt="Cimg2620" />
+				    </div>
+			      <figcaption>
+		          <p>Cimg2620</p>
+			      </figcaption>
+				    <a href="https://eesev9ie.github.io//media/schulchronik/2012/01/cimg2620.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+</div>
 <p>Auch bei der der Auswahl der Projekte dürfte bei niemandem Langeweile aufkommen.</p>
 <p>Es gibt Vorstellungen von asiatischen Ländern, wie China und Vietnam, eine australische Vorstellung, europäische Veranstaltungen über Spanien, Frankreich und Ungarn bis hin zu amerikanischen Vorstellungen von Ländern wie Brasilien.</p>
-<p>
-
-
 <div class="gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
 				<div class="box">
 				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
@@ -344,17 +345,9 @@ Heute stellen Schüler den besonderen Bezug, welchen sie zu einem Land oder eine
 				  </figure>
 				</div>
 </div>
-
-
-
-
-</p>
 <p>Die Präsentationsarten waren sehr unterschiedlich: Die einen zeigen Filme, die anderen kochen leckeres Essen oder machen eine Powerpoint-Präsentation. Wem eine Kultur besonders gefallen hat, der kann gleich zu der Schüleraustauschorganisation ASF gehen, die an unserer Schule zu Gast war und sich informieren.</p>
 <p>Insgesamt gab es zwei Blöcke, dass heißt, jeder Schüler konnte zwei Veranstaltungen besuchen.</p>
 <p>Natürlich wurde auch für ein musikalisches Programm gesorgt und man hatte die Möglichkeit beim japanischen Origami seine Geschicklichkeit unter Beweis zu stellen.</p>
-<p>
-
-
 <div class="gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
 				<div class="box">
 				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
@@ -379,19 +372,29 @@ Heute stellen Schüler den besonderen Bezug, welchen sie zu einem Land oder eine
 				  </figure>
 				</div>
 </div>
-
-
-
-
-</p>
 <p>Ich denke, es war ein sehr gelungener Tag, da viele Schüler andere Kulturen entdeckt haben und sich vielleicht im Nachhinein noch damit beschäftigen. Gegen 13:00 Uhr verließen alle früher als gewöhnlich und mit strahlenden Gesichtern die Schule.</p>
 <p>Alexandra Schrader, 2013</p>
-<h2 id="sonstiges">Sonstiges</h2>
+</p></div>
+      </details>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="card border-primary rounded-0 hover-shadow mb-5">
+    <div class="card-body">
+      <details>
+      <summary>Sonstiges</summary>
+      <div class="content"><p class="content">
 <ul>
 <li>Mathe-Silber in der Schweiz</li>
 <li>Schach-Camps</li>
 <li>Erste Preise für Jugend-Forscht-Innovationen</li>
 </ul>
+</p></div>
+      </details>
+    </div>
+  </div>
+</div>
 
       </div>
       

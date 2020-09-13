@@ -30,6 +30,25 @@
   <link rel="shortcut icon" href="https://eesev9ie.github.io/media/favicon.png" type="image/x-icon">
   <link rel="icon" href="https://eesev9ie.github.io/media/favicon.png" type="image/x-icon">
 
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+  crossorigin=""/>
+
+
+
+  
+ <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+
+<style>
+  #map {
+    height: 500px;
+    border: 1px solid #aaa;
+    border-radius: 15px;
+  }
+</style>
+
 </head>
 <body>
 <!-- preloader start -->
@@ -179,63 +198,107 @@
     <div class="row">
       <div class="col-md-8">
         <ul class="list-inline custom-breadcrumb">
-          <li class="list-inline-item h2"><a class="text-primary font-secondary" href="https://eesev9ie.github.io/">Startseite</a></li>
-          <li class="list-inline-item h5"><i class="ti-angle-right text-white"></i></li>
-          <li class="list-inline-item text-white h3 font-secondary">2005</li>
+          <li class="list-inline-item h1"><a class="text-primary font-secondary" href="https://eesev9ie.github.io/">Startseite</a></li>
+          <li class="list-inline-item h2"><i class="ti-angle-right text-white"></i></li>
+          <li class="list-inline-item text-white h1 font-secondary">2005</li>
         </ul>
         <p class="text-lighten"></p>
       </div>
     </div>
   </div>
 </section>
+
 	
 
 
 <section class="section-sm">
   <div class="container">
+    
+        
     <div class="row">
       <div class="col-12 mb-4">
         
-        <img style="height: 500px;width: 100%;object-fit: cover;" src="/media/image.png"
-          class="img-fluid w-100">
-      </div>
-    </div>
-    <div>
-      <h2>2005</h2>
-    </div>
-    <div class="content">
-    <aside>
-      <nav id="TableOfContents">
-  <ul>
-    <li><a href="#begleitung-der-oper-cantor---die-vermessung-des-unendlichen">Begleitung der Oper: Cantor - die Vermessung des Unendlichen</a></li>
-    <li><a href="#die-entstehung-des-fotos-cantordiagonalen">Die Entstehung des Fotos „Cantordiagonalen“</a></li>
-    <li><a href="#teilnahme-an-der-ersten-internationalen-junior-science-olympiade">Teilnahme an der ersten Internationalen Junior Science Olympiade</a></li>
-    <li><a href="#wettbewerbserfolge-2005">Wettbewerbserfolge 2005</a>
-      <ul>
-        <li><a href="#mathematik-olympiade">Mathematik-Olympiade</a></li>
-        <li><a href="#bundeswettbewerb-mathematik">Bundeswettbewerb-Mathematik</a></li>
-        <li><a href="#internationale-junior-science-olympiade">Internationale Junior Science Olympiade</a></li>
-        <li><a href="#bio-chemie-olympiade">Bio-Chemie-Olympiade</a></li>
-        <li><a href="#internationale-elektrotechnik-olympiade">Internationale Elektrotechnik-Olympiade</a></li>
-        <li><a href="#bundeswettbewerb-fremdsprachen">Bundeswettbewerb Fremdsprachen</a></li>
-        <li><a href="#jugend-forscht">Jugend Forscht</a></li>
-        <li><a href="#landeswettbewerb-latein">Landeswettbewerb Latein</a></li>
-        <li><a href="#landeswettbewerb-geographie">Landeswettbewerb Geographie</a></li>
-        <li><a href="#bundeswettbewerb-informatik">Bundeswettbewerb Informatik</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
-    </aside>
+
+
+
+  
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="/js/load-photoswipe.js"></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css" integrity="sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
     </div>
     
-    <div class="row">
-      <div class="col-12 mb-4 content">
-        <p>Georg Cantor ist zweifellos ein großer Mathematiker und auf jeden Fall der Ehrung durch ein Theaterstück wert. Lediglich fehlte bisher wohl der Wagemut, sich dieser Aufgabe anzunehmen. Zumindest bis Ingomar Grünauer kam und dem Vater der Mengenlehre eine Oper widmete. „Cantor – Die Vermessung des Unendlichen“ heißt das Werk, das am 21. Oktober 2005 in der Oper Halle uraufgeführt wurde. Während also Cantor geehrt wird, arbeiten seine Schäfchen daran, im nachzufolgen, wie Franziska Flegel, die bei ihrer zweiten Teilnahme bei der insgesamt zweiten IJSO zum zweiten Mal, dieses Mal zusammen mit Bertram Arnold, den zweiten Preis gewann.</p>
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+<p>Georg Cantor ist zweifellos ein großer Mathematiker und auf jeden Fall der Ehrung durch ein Theaterstück wert. Lediglich fehlte bisher wohl der Wagemut, sich dieser Aufgabe anzunehmen. Zumindest bis Ingomar Grünauer kam und dem Vater der Mengenlehre eine Oper widmete. „Cantor – Die Vermessung des Unendlichen“ heißt das Werk, das am 21. Oktober 2005 in der Oper Halle uraufgeführt wurde. Während also Cantor geehrt wird, arbeiten seine Schäfchen daran, im nachzufolgen, wie Franziska Flegel, die bei ihrer zweiten Teilnahme bei der insgesamt zweiten IJSO zum zweiten Mal, dieses Mal zusammen mit Bertram Arnold, den zweiten Preis gewann.</p>
 <p>Den Cantorpreis erhielt diesmal ein vielseitiges Sprachgenie, sowohl in Programmier- als auch in gesprochenen Fremdsprachen. Für Martin Maas, der kurz vorher noch etwas Skat gespielt hatte, war die Verleihung des Preises eine große Überraschung, sich als neunter Preisträger auf die wachsende Liste der ausgezeichneten Cantorianer setzen zu können.</p>
-<h2 id="begleitung-der-oper-cantor---die-vermessung-des-unendlichen">Begleitung der Oper: Cantor - die Vermessung des Unendlichen</h2>
+<div class="container">
+  <div class="card border-primary rounded-0 hover-shadow mb-5">
+    <div class="card-body">
+      <details>
+      <summary>Begleitung der Oper: Cantor - die Vermessung des Unendlichen</summary>
+      <div class="content"><p class="content">
 <p><img src="/media/schulchronik/2005/tanz_der_zahlen_und_figuren.png" alt="Tanz der Zahlen und Figuren"></p>
-<h2 id="die-entstehung-des-fotos-cantordiagonalen">Die Entstehung des Fotos „Cantordiagonalen“</h2>
+</p></div>
+      </details>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="card border-primary rounded-0 hover-shadow mb-5">
+    <div class="card-body">
+      <details>
+      <summary>Die Entstehung des Fotos „Cantordiagonalen“</summary>
+      <div class="content"><p class="content">
 <p>Im Schuljahr 2004/05 beleuchtete der Mathematik-WOU-Kurs Klasse 9 das Werk Cantors.
 Es stellte sich heraus, dass viele Cantorianer gar nicht wussten, womit sich Cantor eigentlich beschäftigt hat. Die WOU Gruppe hat sich überlegt, wie sie Cantors Erkenntnisse der Schüler- und Lehrerschaft nahe bringen kann. Da in diesem Kurs einige Organisationstalente waren, kam uns die Idee mit dem Foto.
 Was wir damit losgetreten hatten, war uns anfangs natürlich nicht bewusst. Zunächst musste allen Schülern erst einmal das Cantor’sche Diagonalverfahren klargemacht werden – wir wollten schon, dass alle verstehen, was wir fotografieren. Die Mathelehrer halfen uns.
@@ -246,10 +309,40 @@ Ein paar Helfer am Rand der Matrix, die die Schüler aufbauen sollten, stellten 
 Jetzt kam die eigentliche Gaudi – irgendeiner hatte die Idee, ein Band durch die Reihen zu geben, dass den Beweisweg der Cantor´schen Listenbildung nachzeichnet. Was das bedeutete, sieht man auf den Fotos. Erstaunlich, dass am Ende tatsächlich tatsächlich das erwartete Bild fotografiert werden konnte.
 Das Beste waren aber die lachenden Gesichter aller Teilnehmer.</p>
 <p>A. Kramer</p>
-<p><img src="/media/schulchronik/2005/03.jpg" alt="Diagonalen"></p>
-<h2 id="teilnahme-an-der-ersten-internationalen-junior-science-olympiade">Teilnahme an der ersten Internationalen Junior Science Olympiade</h2>
+<div class="gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
+<link rel="stylesheet" href="/css/hugo-easy-gallery.css" />
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/media/schulchronik/2005/03.jpg');">
+      <img itemprop="thumbnail" src="/media/schulchronik/2005/03.jpg" />
+    </div>
+    <a href="/media/schulchronik/2005/03.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+</div>
+</p></div>
+      </details>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="card border-primary rounded-0 hover-shadow mb-5">
+    <div class="card-body">
+      <details>
+      <summary>Teilnahme an der ersten Internationalen Junior Science Olympiade</summary>
+      <div class="content"><p class="content">
 <p><img src="/media/schulchronik/2005/2005_ijso.png" alt="ijso"></p>
-<h2 id="wettbewerbserfolge-2005">Wettbewerbserfolge 2005</h2>
+</p></div>
+      </details>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="card border-primary rounded-0 hover-shadow mb-5">
+    <div class="card-body">
+      <details>
+      <summary>Wettbewerbserfolge 2005</summary>
+      <div class="content"><p class="content">
 <h3 id="mathematik-olympiade">Mathematik-Olympiade</h3>
 <h4 id="landesrunde">Landesrunde</h4>
 <table>
@@ -635,6 +728,11 @@ Das Beste waren aber die lachenden Gesichter aller Teilnehmer.</p>
 </tr>
 </tbody>
 </table>
+</p></div>
+      </details>
+    </div>
+  </div>
+</div>
 
       </div>
       

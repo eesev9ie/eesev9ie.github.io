@@ -30,6 +30,25 @@
   <link rel="shortcut icon" href="https://eesev9ie.github.io/media/favicon.png" type="image/x-icon">
   <link rel="icon" href="https://eesev9ie.github.io/media/favicon.png" type="image/x-icon">
 
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+  crossorigin=""/>
+
+
+
+  
+ <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+
+<style>
+  #map {
+    height: 500px;
+    border: 1px solid #aaa;
+    border-radius: 15px;
+  }
+</style>
+
 </head>
 <body>
 <!-- preloader start -->
@@ -179,56 +198,120 @@
     <div class="row">
       <div class="col-md-8">
         <ul class="list-inline custom-breadcrumb">
-          <li class="list-inline-item h2"><a class="text-primary font-secondary" href="https://eesev9ie.github.io/">Startseite</a></li>
-          <li class="list-inline-item h5"><i class="ti-angle-right text-white"></i></li>
-          <li class="list-inline-item text-white h3 font-secondary">2004</li>
+          <li class="list-inline-item h1"><a class="text-primary font-secondary" href="https://eesev9ie.github.io/">Startseite</a></li>
+          <li class="list-inline-item h2"><i class="ti-angle-right text-white"></i></li>
+          <li class="list-inline-item text-white h1 font-secondary">2004</li>
         </ul>
         <p class="text-lighten"></p>
       </div>
     </div>
   </div>
 </section>
+
 	
 
 
 <section class="section-sm">
   <div class="container">
+    
+        
     <div class="row">
       <div class="col-12 mb-4">
         
-        <img style="height: 500px;width: 100%;object-fit: cover;" src="/media/image.png"
-          class="img-fluid w-100">
-      </div>
-    </div>
-    <div>
-      <h2>2004</h2>
-    </div>
-    <div class="content">
-    <aside>
-      <nav id="TableOfContents">
-  <ul>
-    <li><a href="#teilnahme-von-franziska-flegel-an-der-internationalen-olympiade-für-nachwuchswissenschaftler">Teilnahme von Franziska Flegel an der internationalen Olympiade für Nachwuchswissenschaftler</a></li>
-    <li><a href="#wettbewerbserfolge-2004">Wettbewerbserfolge 2004</a>
-      <ul>
-        <li><a href="#mathematik-olympiade">Mathematik-Olympiade</a></li>
-        <li><a href="#bundeswettbewerb-mathematik">Bundeswettbewerb-Mathematik</a></li>
-        <li><a href="#bio-chemie-olympiade">Bio-Chemie-Olympiade</a></li>
-        <li><a href="#biologie-olympiade">Biologie-Olympiade</a></li>
-        <li><a href="#internationale-junior-science-olympiade">Internationale Junior Science Olympiade</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
-    </aside>
+
+
+
+  
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="/js/load-photoswipe.js"></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css" integrity="sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
     </div>
     
-    <div class="row">
-      <div class="col-12 mb-4 content">
-        <p>Nach einem sehr außergewöhnlichen Jahr 2003 kehrte in diesem Jahr wieder ein wenig Ruhe in das Georg-Cantor-Gymnasium ein. Es war eher das Jahr von Chemie und Mathematik mit einer Menge Preise in diesen Richtungen. So qualifizierte sich zum Beispiel Franziska Flegel für die erste IJSO in Jakarta und gewann dort auch gleich eine hervorragende Silbermedaille.</p>
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+<p>Nach einem sehr außergewöhnlichen Jahr 2003 kehrte in diesem Jahr wieder ein wenig Ruhe in das Georg-Cantor-Gymnasium ein. Es war eher das Jahr von Chemie und Mathematik mit einer Menge Preise in diesen Richtungen. So qualifizierte sich zum Beispiel Franziska Flegel für die erste IJSO in Jakarta und gewann dort auch gleich eine hervorragende Silbermedaille.</p>
 <p>Nur der Cantorpreis wurde hauptsächlich für andere Leistungen vergeben. Der Preisträger dieses Jahres ist sehr engagiert und initierte im November 2003 als Schülersprecher den Schülerstreik. Marcus Syring hat diesen Preis auf jeden Fall verdient und schließt sich mit seiner außergewöhnlichen Arbeit für die Schule als neunter Preisträger in die Reihe großer Cantorianer an.</p>
-<h2 id="teilnahme-von-franziska-flegel-an-der-internationalen-olympiade-für-nachwuchswissenschaftler">Teilnahme von Franziska Flegel an der internationalen Olympiade für Nachwuchswissenschaftler</h2>
-<p><img src="/media/schulchronik/2004/multitalent_hofft_auf_glck.png" alt="MTHAG"></p>
-<h2 id="wettbewerbserfolge-2004">Wettbewerbserfolge 2004</h2>
+<div class="container">
+  <div class="card border-primary rounded-0 hover-shadow mb-5">
+    <div class="card-body">
+      <details>
+      <summary>Teilnahme von Franziska Flegel an der internationalen Olympiade für Nachwuchswissenschaftler</summary>
+      <div class="content"><p class="content">
+<link rel="stylesheet" href="/css/hugo-easy-gallery.css" />
+<div class="gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://eesev9ie.github.io//media/schulchronik/2004/multitalent_hofft_auf_glck.png');" >
+				      <img itemprop="thumbnail" src="https://eesev9ie.github.io//media/schulchronik/2004/multitalent_hofft_auf_glck.png" alt="Multitalent hofft auf glck" />
+				    </div>
+			      <figcaption>
+		          <p>Multitalent hofft auf glck</p>
+			      </figcaption>
+				    <a href="https://eesev9ie.github.io//media/schulchronik/2004/multitalent_hofft_auf_glck.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+</div>
+</p></div>
+      </details>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="card border-primary rounded-0 hover-shadow mb-5">
+    <div class="card-body">
+      <details>
+      <summary>Wettbewerbserfolge 2004</summary>
+      <div class="content"><p class="content">
 <h3 id="mathematik-olympiade">Mathematik-Olympiade</h3>
 <h4 id="landesrunde">Landesrunde</h4>
 <table>
@@ -492,6 +575,11 @@
 <p>Teilnahme von Frank Biedermann bis zur 3. Runde im Auswahlverfahren für das deutsche Team</p>
 <h3 id="internationale-junior-science-olympiade">Internationale Junior Science Olympiade</h3>
 <p>Franziska Flegel errang als Mitglied im deutschen Team die Silbermedaille</p>
+</p></div>
+      </details>
+    </div>
+  </div>
+</div>
 
       </div>
       

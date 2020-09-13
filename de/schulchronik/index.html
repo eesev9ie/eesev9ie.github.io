@@ -30,6 +30,25 @@
   <link rel="shortcut icon" href="https://eesev9ie.github.io/media/favicon.png" type="image/x-icon">
   <link rel="icon" href="https://eesev9ie.github.io/media/favicon.png" type="image/x-icon">
 
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+  crossorigin=""/>
+
+
+
+  
+ <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+
+<style>
+  #map {
+    height: 500px;
+    border: 1px solid #aaa;
+    border-radius: 15px;
+  }
+</style>
+
 </head>
 <body>
 <!-- preloader start -->
@@ -179,15 +198,16 @@
     <div class="row">
       <div class="col-md-8">
         <ul class="list-inline custom-breadcrumb">
-          <li class="list-inline-item h2"><a class="text-primary font-secondary" href="https://eesev9ie.github.io/">Startseite</a></li>
-          <li class="list-inline-item h5"><i class="ti-angle-right text-white"></i></li>
-          <li class="list-inline-item text-white h3 font-secondary">Schulchronik</li>
+          <li class="list-inline-item h1"><a class="text-primary font-secondary" href="https://eesev9ie.github.io/">Startseite</a></li>
+          <li class="list-inline-item h2"><i class="ti-angle-right text-white"></i></li>
+          <li class="list-inline-item text-white h1 font-secondary">Schulchronik</li>
         </ul>
         <p class="text-lighten"></p>
       </div>
     </div>
   </div>
 </section>
+
 	
 
 
@@ -196,91 +216,76 @@
     <div class="row">
       <div class="col-12">
         <hr>
-<p><img style="float: left; border: 0; margin: 10px;" src="/media/schulchronik/cantor1.jpg" border="0" width="268" height="326" /><h1>&quot;Aus dem Paradies, das Cantor uns geschaffen, soll uns niemand vertreiben können.&ldquo;</h1><p>aus &lsquo;David Hilbert, &lsquo;Über das Unendliche&rsquo;, Math. Ann. 95</p><br></p>
+<p><img src="/media/schulchronik/cantor1.jpg" alt="Cantor"></p>
+<h1 id="aus-dem-paradies-das-cantor-uns-geschaffen-soll-uns-niemand-vertreiben-können">&ldquo;Aus dem Paradies, das Cantor uns geschaffen, soll uns niemand vertreiben können.&rdquo;</h1>
+<p>aus &lsquo;David Hilbert, Über das Unendliche&rsquo;, Math. Ann. 95</p><br></p>
 <hr>
 <h2 id="statistische-daten">Statistische Daten</h2>
-<p><div class="container">
-  <div class="card border-primary rounded-0 hover-shadow mb-5">
-    <div class="card-body">
-      <h4 class="card-title"><a href='/de/abiturienten'>Abiturienten</a></h4>
-      <a href='/de/abiturienten' class="btn btn-primary btn-sm">Mehr anzeigen</a>
-    </div>
+<div class="row mb-5">
+    <div class="card border-primary rounded-0 hover-shadow mb-5 col-lg-4">
+  <div class="card-body">
+    <h4 class="card-title"><a href='/de/abiturienten'>Abiturienten</a></h4>
+    <a href='/de/abiturienten' class="btn btn-primary btn-sm">Mehr anzeigen</a>
   </div>
 </div>
 
-<div class="container">
-  <div class="card border-primary rounded-0 hover-shadow mb-5">
-    <div class="card-body">
-      <h4 class="card-title"><a href='/de/statistiken/abiturdurchschnitte'>Abiturdurchschnitte</a></h4>
-      <a href='/de/statistiken/abiturdurchschnitte' class="btn btn-primary btn-sm">Mehr anzeigen</a>
-    </div>
+    <div class="card border-primary rounded-0 hover-shadow mb-5 col-lg-4">
+  <div class="card-body">
+    <h4 class="card-title"><a href='/de/statistiken/abiturdurchschnitte'>Abiturdurchschnitte</a></h4>
+    <a href='/de/statistiken/abiturdurchschnitte' class="btn btn-primary btn-sm">Mehr anzeigen</a>
   </div>
 </div>
 
-<div class="container">
-  <div class="card border-primary rounded-0 hover-shadow mb-5">
-    <div class="card-body">
-      <h4 class="card-title"><a href='/de/statistiken/sch%c3%bclerzahlen'>Schülerzahlen</a></h4>
-      <a href='/de/statistiken/sch%c3%bclerzahlen' class="btn btn-primary btn-sm">Mehr anzeigen</a>
-    </div>
+    <div class="card border-primary rounded-0 hover-shadow mb-5 col-lg-4">
+  <div class="card-body">
+    <h4 class="card-title"><a href='/de/statistiken/sch%c3%bclerzahlen'>Schülerzahlen</a></h4>
+    <a href='/de/statistiken/sch%c3%bclerzahlen' class="btn btn-primary btn-sm">Mehr anzeigen</a>
   </div>
 </div>
 
-<div class="container">
-  <div class="card border-primary rounded-0 hover-shadow mb-5">
-    <div class="card-body">
-      <h4 class="card-title"><a href='/de/statistiken/mitarbeiterliste'>Mitarbeiterliste</a></h4>
-      <a href='/de/statistiken/mitarbeiterliste' class="btn btn-primary btn-sm">Mehr anzeigen</a>
-    </div>
-  </div>
-</div>
-</p>
-<hr>
-<p><div class="container">
-  <div class="card border-primary rounded-0 hover-shadow mb-5">
-    <div class="card-body">
-      <h4 class="card-title"><a href='/de/about/cantor/'>Über Georg Cantor</a></h4>
-      <a href='/de/about/cantor/' class="btn btn-primary btn-sm">Mehr anzeigen</a>
-    </div>
+    <div class="card border-primary rounded-0 hover-shadow mb-5 col-lg-4">
+  <div class="card-body">
+    <h4 class="card-title"><a href='/de/statistiken/mitarbeiterliste'>Mitarbeiterliste</a></h4>
+    <a href='/de/statistiken/mitarbeiterliste' class="btn btn-primary btn-sm">Mehr anzeigen</a>
   </div>
 </div>
 
-<div class="container">
-  <div class="card border-primary rounded-0 hover-shadow mb-5">
-    <div class="card-body">
-      <h4 class="card-title"><a href='/de/alumni-netzwerk'>Alumninetzwerk</a></h4>
-      <a href='/de/alumni-netzwerk' class="btn btn-primary btn-sm">Mehr anzeigen</a>
-    </div>
+    <div class="card border-primary rounded-0 hover-shadow mb-5 col-lg-4">
+  <div class="card-body">
+    <h4 class="card-title"><a href='/de/about/cantor/'>Über Georg Cantor</a></h4>
+    <a href='/de/about/cantor/' class="btn btn-primary btn-sm">Mehr anzeigen</a>
   </div>
 </div>
 
-<div class="container">
-  <div class="card border-primary rounded-0 hover-shadow mb-5">
-    <div class="card-body">
-      <h4 class="card-title"><a href='/de/about/chronologie'>Chronologie</a></h4>
-      <a href='/de/about/chronologie' class="btn btn-primary btn-sm">Mehr anzeigen</a>
-    </div>
+    <div class="card border-primary rounded-0 hover-shadow mb-5 col-lg-4">
+  <div class="card-body">
+    <h4 class="card-title"><a href='/de/alumni-netzwerk'>Alumninetzwerk</a></h4>
+    <a href='/de/alumni-netzwerk' class="btn btn-primary btn-sm">Mehr anzeigen</a>
   </div>
 </div>
 
-<div class="container">
-  <div class="card border-primary rounded-0 hover-shadow mb-5">
-    <div class="card-body">
-      <h4 class="card-title"><a href='/de/about/traditionen'>Traditionen</a></h4>
-      <a href='/de/about/traditionen' class="btn btn-primary btn-sm">Mehr anzeigen</a>
-    </div>
+    <div class="card border-primary rounded-0 hover-shadow mb-5 col-lg-4">
+  <div class="card-body">
+    <h4 class="card-title"><a href='/de/about/chronologie'>Chronologie</a></h4>
+    <a href='/de/about/chronologie' class="btn btn-primary btn-sm">Mehr anzeigen</a>
   </div>
 </div>
 
-<div class="container">
-  <div class="card border-primary rounded-0 hover-shadow mb-5">
-    <div class="card-body">
-      <h4 class="card-title"><a href='/de/chronisten'>Chronistenteam</a></h4>
-      <a href='/de/chronisten' class="btn btn-primary btn-sm">Mehr anzeigen</a>
-    </div>
+    <div class="card border-primary rounded-0 hover-shadow mb-5 col-lg-4">
+  <div class="card-body">
+    <h4 class="card-title"><a href='/de/about/traditionen'>Traditionen</a></h4>
+    <a href='/de/about/traditionen' class="btn btn-primary btn-sm">Mehr anzeigen</a>
   </div>
 </div>
-</p>
+
+    <div class="card border-primary rounded-0 hover-shadow mb-5 col-lg-4">
+  <div class="card-body">
+    <h4 class="card-title"><a href='/de/chronisten'>Chronistenteam</a></h4>
+    <a href='/de/chronisten' class="btn btn-primary btn-sm">Mehr anzeigen</a>
+  </div>
+</div>
+
+</div>
 <hr>
 <h2 id="chronik">Chronik</h2>
 
@@ -292,7 +297,7 @@
       
       <div class="col-lg-4 col-sm-6 mb-5">
         <div class="card border-primary rounded-0 hover-shadow mb-5">
-  <img class="card-img-top rounded-0" src="/media/image.png" alt="1988">
+  
   <div class="card-body">
     <h4 class="card-title"><a href="https://eesev9ie.github.io/de/schulchronik/1988/">1988</a></h4>
     <p class="card-text mb-4">„Ad fontes – zu den Ursprüngen“ Im Jahr 1986 gab es in der damaligen DDR bereits einige …</p>
@@ -304,7 +309,7 @@
       
       <div class="col-lg-4 col-sm-6 mb-5">
         <div class="card border-primary rounded-0 hover-shadow mb-5">
-  <img class="card-img-top rounded-0" src="/media/image.png" alt="1989">
+  
   <div class="card-body">
     <h4 class="card-title"><a href="https://eesev9ie.github.io/de/schulchronik/1989/">1989</a></h4>
     <p class="card-text mb-4">Vom Kindergarten zum Internat Ein Jahr nach Gründung der Spezialschule begann das Internat Schüler …</p>
@@ -316,7 +321,7 @@
       
       <div class="col-lg-4 col-sm-6 mb-5">
         <div class="card border-primary rounded-0 hover-shadow mb-5">
-  <img class="card-img-top rounded-0" src="/media/image.png" alt="1990">
+  
   <div class="card-body">
     <h4 class="card-title"><a href="https://eesev9ie.github.io/de/schulchronik/1990/">1990</a></h4>
     <p class="card-text mb-4">Von der Spezialschule zum Gymnasium Im Zuge der politischen Umwälzungen in den Jahren 1989/1990 kam …</p>
@@ -328,11 +333,10 @@
       
       <div class="col-lg-4 col-sm-6 mb-5">
         <div class="card border-primary rounded-0 hover-shadow mb-5">
-  <img class="card-img-top rounded-0" src="/media/image.png" alt="1991">
+  
   <div class="card-body">
     <h4 class="card-title"><a href="https://eesev9ie.github.io/de/schulchronik/1991/">1991</a></h4>
-    <p class="card-text mb-4">Gründung des Fördervereins    1st
-      2nd</p>
+    <p class="card-text mb-4">Gründung des Fördervereins   1st</p>
     <a href="https://eesev9ie.github.io/de/schulchronik/1991/" class="btn btn-primary btn-sm">Mehr anzeigen</a>
   </div>
 </div>
@@ -341,10 +345,10 @@
       
       <div class="col-lg-4 col-sm-6 mb-5">
         <div class="card border-primary rounded-0 hover-shadow mb-5">
-  <img class="card-img-top rounded-0" src="/media/image.png" alt="1992">
+  
   <div class="card-body">
     <h4 class="card-title"><a href="https://eesev9ie.github.io/de/schulchronik/1992/">1992</a></h4>
-    <p class="card-text mb-4">Das Jahr 1992 war ein ereignisreiches Jahr. Für das Schuljahr 1991/92 wurde der erste Abiturjahrgang …</p>
+    <p class="card-text mb-4">Das Jahr 1992 war ein ereignisreiches Jahr.</p>
     <a href="https://eesev9ie.github.io/de/schulchronik/1992/" class="btn btn-primary btn-sm">Mehr anzeigen</a>
   </div>
 </div>
@@ -353,10 +357,10 @@
       
       <div class="col-lg-4 col-sm-6 mb-5">
         <div class="card border-primary rounded-0 hover-shadow mb-5">
-  <img class="card-img-top rounded-0" src="/media/image.png" alt="1993">
+  
   <div class="card-body">
     <h4 class="card-title"><a href="https://eesev9ie.github.io/de/schulchronik/1993/">1993</a></h4>
-    <p class="card-text mb-4">Profil des GCG Bestätigt                                   14 mal 1,0       Verleihung vieler …</p>
+    <p class="card-text mb-4">Profil des GCG Bestätigt            14 mal 1,0            Verleihung vieler &#39;&#39;Jugend …</p>
     <a href="https://eesev9ie.github.io/de/schulchronik/1993/" class="btn btn-primary btn-sm">Mehr anzeigen</a>
   </div>
 </div>
@@ -365,7 +369,7 @@
       
       <div class="col-lg-4 col-sm-6 mb-5">
         <div class="card border-primary rounded-0 hover-shadow mb-5">
-  <img class="card-img-top rounded-0" src="/media/image.png" alt="1994">
+  
   <div class="card-body">
     <h4 class="card-title"><a href="https://eesev9ie.github.io/de/schulchronik/1994/">1994</a></h4>
     <p class="card-text mb-4">Das Jahr 1994 war ein bedeutungsvolles, was die internationale Umgebung des GCGs anging und auch …</p>
@@ -377,7 +381,7 @@
       
       <div class="col-lg-4 col-sm-6 mb-5">
         <div class="card border-primary rounded-0 hover-shadow mb-5">
-  <img class="card-img-top rounded-0" src="/media/image.png" alt="1995">
+  
   <div class="card-body">
     <h4 class="card-title"><a href="https://eesev9ie.github.io/de/schulchronik/1995/">1995</a></h4>
     <p class="card-text mb-4">Einführung des Cantorpreises Seit 1995 wird jährlich ein besonderer „Grübler“ unserer Schule …</p>
@@ -389,7 +393,7 @@
       
       <div class="col-lg-4 col-sm-6 mb-5">
         <div class="card border-primary rounded-0 hover-shadow mb-5">
-  <img class="card-img-top rounded-0" src="/media/image.png" alt="1996">
+  
   <div class="card-body">
     <h4 class="card-title"><a href="https://eesev9ie.github.io/de/schulchronik/1996/">1996</a></h4>
     <p class="card-text mb-4">In diesem Jahr hat sich der Förderverein der Schule eine besondere Auszeichnung einfallen lassen: …</p>
@@ -401,7 +405,7 @@
       
       <div class="col-lg-4 col-sm-6 mb-5">
         <div class="card border-primary rounded-0 hover-shadow mb-5">
-  <img class="card-img-top rounded-0" src="/media/image.png" alt="1997">
+  
   <div class="card-body">
     <h4 class="card-title"><a href="https://eesev9ie.github.io/de/schulchronik/1997/">1997</a></h4>
     <p class="card-text mb-4">Diesen Sommer hatten unsere Schule und vor allem ihr Abschlussjahrgang einen besonderen Grund zur …</p>
@@ -413,10 +417,10 @@
       
       <div class="col-lg-4 col-sm-6 mb-5">
         <div class="card border-primary rounded-0 hover-shadow mb-5">
-  <img class="card-img-top rounded-0" src="/media/image.png" alt="1998">
+  
   <div class="card-body">
     <h4 class="card-title"><a href="https://eesev9ie.github.io/de/schulchronik/1998/">1998</a></h4>
-    <p class="card-text mb-4">10-jähriges Jubiläum des GCG                                       Nobelpreisträger am GCG …</p>
+    <p class="card-text mb-4">10-jähriges Jubiläum des GCG                Nobelpreisträger am GCG       Wettbewerbserfolge 1998 …</p>
     <a href="https://eesev9ie.github.io/de/schulchronik/1998/" class="btn btn-primary btn-sm">Mehr anzeigen</a>
   </div>
 </div>
@@ -425,7 +429,7 @@
       
       <div class="col-lg-4 col-sm-6 mb-5">
         <div class="card border-primary rounded-0 hover-shadow mb-5">
-  <img class="card-img-top rounded-0" src="/media/image.png" alt="1999">
+  
   <div class="card-body">
     <h4 class="card-title"><a href="https://eesev9ie.github.io/de/schulchronik/1999/">1999</a></h4>
     <p class="card-text mb-4">Seit diesem Jahr wird am Georg-Cantor-Gymnasium das Fach Informatik schon ab der 7.</p>
@@ -437,10 +441,10 @@
       
       <div class="col-lg-4 col-sm-6 mb-5">
         <div class="card border-primary rounded-0 hover-shadow mb-5">
-  <img class="card-img-top rounded-0" src="/media/image.png" alt="2000">
+  
   <div class="card-body">
     <h4 class="card-title"><a href="https://eesev9ie.github.io/de/schulchronik/2000/">2000</a></h4>
-    <p class="card-text mb-4">Politiker am GCG Anlässlich des 155. Geburtstages von Georg Cantor wurde am 02.</p>
+    <p class="card-text mb-4">Politiker am GCG Anlässlich des 155.</p>
     <a href="https://eesev9ie.github.io/de/schulchronik/2000/" class="btn btn-primary btn-sm">Mehr anzeigen</a>
   </div>
 </div>
@@ -449,10 +453,10 @@
       
       <div class="col-lg-4 col-sm-6 mb-5">
         <div class="card border-primary rounded-0 hover-shadow mb-5">
-  <img class="card-img-top rounded-0" src="/media/image.png" alt="2001">
+  
   <div class="card-body">
     <h4 class="card-title"><a href="https://eesev9ie.github.io/de/schulchronik/2001/">2001</a></h4>
-    <p class="card-text mb-4">Die größte Sensation des Jahres 2001 fand am 19. Oktober statt.</p>
+    <p class="card-text mb-4">Die größte Sensation des Jahres 2001 fand am 19.</p>
     <a href="https://eesev9ie.github.io/de/schulchronik/2001/" class="btn btn-primary btn-sm">Mehr anzeigen</a>
   </div>
 </div>
@@ -461,10 +465,10 @@
       
       <div class="col-lg-4 col-sm-6 mb-5">
         <div class="card border-primary rounded-0 hover-shadow mb-5">
-  <img class="card-img-top rounded-0" src="/media/image.png" alt="2002">
+  
   <div class="card-body">
     <h4 class="card-title"><a href="https://eesev9ie.github.io/de/schulchronik/2002/">2002</a></h4>
-    <p class="card-text mb-4">Kooperation mit DOW- Chemical Im April 2002 unterzeichnete unser Schulleiter einen …</p>
+    <p class="card-text mb-4">Kooperation mit DOW-Chemical Im April 2002 unterzeichnete unser Schulleiter einen …</p>
     <a href="https://eesev9ie.github.io/de/schulchronik/2002/" class="btn btn-primary btn-sm">Mehr anzeigen</a>
   </div>
 </div>
@@ -473,7 +477,7 @@
       
       <div class="col-lg-4 col-sm-6 mb-5">
         <div class="card border-primary rounded-0 hover-shadow mb-5">
-  <img class="card-img-top rounded-0" src="/media/image.png" alt="2003">
+  
   <div class="card-body">
     <h4 class="card-title"><a href="https://eesev9ie.github.io/de/schulchronik/2003/">2003</a></h4>
     <p class="card-text mb-4">Wenn Schüler anfangen, selbst zu streiken, dann muss das schon was heißen.</p>
@@ -485,7 +489,7 @@
       
       <div class="col-lg-4 col-sm-6 mb-5">
         <div class="card border-primary rounded-0 hover-shadow mb-5">
-  <img class="card-img-top rounded-0" src="/media/image.png" alt="2004">
+  
   <div class="card-body">
     <h4 class="card-title"><a href="https://eesev9ie.github.io/de/schulchronik/2004/">2004</a></h4>
     <p class="card-text mb-4">Nach einem sehr außergewöhnlichen Jahr 2003 kehrte in diesem Jahr wieder ein wenig Ruhe in das …</p>
@@ -497,7 +501,7 @@
       
       <div class="col-lg-4 col-sm-6 mb-5">
         <div class="card border-primary rounded-0 hover-shadow mb-5">
-  <img class="card-img-top rounded-0" src="/media/image.png" alt="2005">
+  
   <div class="card-body">
     <h4 class="card-title"><a href="https://eesev9ie.github.io/de/schulchronik/2005/">2005</a></h4>
     <p class="card-text mb-4">Georg Cantor ist zweifellos ein großer Mathematiker und auf jeden Fall der Ehrung durch ein …</p>
@@ -509,7 +513,7 @@
       
       <div class="col-lg-4 col-sm-6 mb-5">
         <div class="card border-primary rounded-0 hover-shadow mb-5">
-  <img class="card-img-top rounded-0" src="/media/image.png" alt="2006">
+  
   <div class="card-body">
     <h4 class="card-title"><a href="https://eesev9ie.github.io/de/schulchronik/2006/">2006</a></h4>
     <p class="card-text mb-4">Neben den unserem Profil entsprechenden Erfolgen gab es in diesem Jahr auch einige kulturelle …</p>
@@ -521,7 +525,7 @@
       
       <div class="col-lg-4 col-sm-6 mb-5">
         <div class="card border-primary rounded-0 hover-shadow mb-5">
-  <img class="card-img-top rounded-0" src="/media/image.png" alt="2007">
+  
   <div class="card-body">
     <h4 class="card-title"><a href="https://eesev9ie.github.io/de/schulchronik/2007/">2007</a></h4>
     <p class="card-text mb-4">Das wichtigste in diesem Jahr ist wohl der Umzug aus dem Gebäude in der Muldestraße in die …</p>
@@ -533,10 +537,10 @@
       
       <div class="col-lg-4 col-sm-6 mb-5">
         <div class="card border-primary rounded-0 hover-shadow mb-5">
-  <img class="card-img-top rounded-0" src="/media/image.png" alt="2008">
+  
   <div class="card-body">
     <h4 class="card-title"><a href="https://eesev9ie.github.io/de/schulchronik/2008/">2008</a></h4>
-    <p class="card-text mb-4">Die 11. Biologie-Chemie-Olympiade brachte Paulin Wendler einen hervorragenden zweiten Platz ein, den …</p>
+    <p class="card-text mb-4">Die 11.</p>
     <a href="https://eesev9ie.github.io/de/schulchronik/2008/" class="btn btn-primary btn-sm">Mehr anzeigen</a>
   </div>
 </div>
@@ -545,7 +549,7 @@
       
       <div class="col-lg-4 col-sm-6 mb-5">
         <div class="card border-primary rounded-0 hover-shadow mb-5">
-  <img class="card-img-top rounded-0" src="/media/image.png" alt="2009">
+  
   <div class="card-body">
     <h4 class="card-title"><a href="https://eesev9ie.github.io/de/schulchronik/2009/">2009</a></h4>
     <p class="card-text mb-4">Im Jahr 2009 nahm das Georg-Cantor-Gymnasium erfolgreich an der Landes-Deutsch-Olympiade und der …</p>
@@ -557,10 +561,10 @@
       
       <div class="col-lg-4 col-sm-6 mb-5">
         <div class="card border-primary rounded-0 hover-shadow mb-5">
-  <img class="card-img-top rounded-0" src="/media/image.png" alt="2010">
+  
   <div class="card-body">
     <h4 class="card-title"><a href="https://eesev9ie.github.io/de/schulchronik/2010/">2010</a></h4>
-    <p class="card-text mb-4">Gedenktafel für Johann Friedrich Struensee    Struensee 01</p>
+    <p class="card-text mb-4">Gedenktafel für Johann Friedrich Struensee   Struensee 01</p>
     <a href="https://eesev9ie.github.io/de/schulchronik/2010/" class="btn btn-primary btn-sm">Mehr anzeigen</a>
   </div>
 </div>
@@ -569,10 +573,10 @@
       
       <div class="col-lg-4 col-sm-6 mb-5">
         <div class="card border-primary rounded-0 hover-shadow mb-5">
-  <img class="card-img-top rounded-0" src="/media/image.png" alt="2011">
+  
   <div class="card-body">
     <h4 class="card-title"><a href="https://eesev9ie.github.io/de/schulchronik/2011/">2011</a></h4>
-    <p class="card-text mb-4">Schule ohne Rassismus – Schule mit Courage Freitag, der 18. März 2011 um 11.</p>
+    <p class="card-text mb-4">Schule ohne Rassismus – Schule mit Courage Freitag, der 18.</p>
     <a href="https://eesev9ie.github.io/de/schulchronik/2011/" class="btn btn-primary btn-sm">Mehr anzeigen</a>
   </div>
 </div>
@@ -581,11 +585,10 @@
       
       <div class="col-lg-4 col-sm-6 mb-5">
         <div class="card border-primary rounded-0 hover-shadow mb-5">
-  <img class="card-img-top rounded-0" src="/media/image.png" alt="2012">
+  
   <div class="card-body">
     <h4 class="card-title"><a href="https://eesev9ie.github.io/de/schulchronik/2012/">2012</a></h4>
-    <p class="card-text mb-4">„Tag der Kulturen“  am 17.12.2012
- Heute konnten alle fröhlich sein: Schüler und Lehrer.</p>
+    <p class="card-text mb-4">„Tag der Kulturen“  am 17.</p>
     <a href="https://eesev9ie.github.io/de/schulchronik/2012/" class="btn btn-primary btn-sm">Mehr anzeigen</a>
   </div>
 </div>
@@ -594,7 +597,7 @@
       
       <div class="col-lg-4 col-sm-6 mb-5">
         <div class="card border-primary rounded-0 hover-shadow mb-5">
-  <img class="card-img-top rounded-0" src="/media/image.png" alt="2013">
+  
   <div class="card-body">
     <h4 class="card-title"><a href="https://eesev9ie.github.io/de/schulchronik/2013/">2013</a></h4>
     <p class="card-text mb-4">25-jähriges Jubiläum 25 Jahre Georg-Cantor-Gymnasium - das heißt 25 Jahre Erfolge in allen …</p>
@@ -606,10 +609,10 @@
       
       <div class="col-lg-4 col-sm-6 mb-5">
         <div class="card border-primary rounded-0 hover-shadow mb-5">
-  <img class="card-img-top rounded-0" src="/media/image.png" alt="2014">
+  
   <div class="card-body">
     <h4 class="card-title"><a href="https://eesev9ie.github.io/de/schulchronik/2014/">2014</a></h4>
-    <p class="card-text mb-4">Verabschiedung Herr OStD Dr. Müller Dieser Inhalt ist hier extern verfügbar.</p>
+    <p class="card-text mb-4">Verabschiedung Herr OStD Dr. Müller Mehr anzeigen    Junior-Ingenieur-Akademie Seit dem Schuljahr …</p>
     <a href="https://eesev9ie.github.io/de/schulchronik/2014/" class="btn btn-primary btn-sm">Mehr anzeigen</a>
   </div>
 </div>
@@ -618,7 +621,7 @@
       
       <div class="col-lg-4 col-sm-6 mb-5">
         <div class="card border-primary rounded-0 hover-shadow mb-5">
-  <img class="card-img-top rounded-0" src="/media/image.png" alt="2015">
+  
   <div class="card-body">
     <h4 class="card-title"><a href="https://eesev9ie.github.io/de/schulchronik/2015/">2015</a></h4>
     <p class="card-text mb-4"></p>
@@ -630,7 +633,7 @@
       
       <div class="col-lg-4 col-sm-6 mb-5">
         <div class="card border-primary rounded-0 hover-shadow mb-5">
-  <img class="card-img-top rounded-0" src="/media/image.png" alt="2016">
+  
   <div class="card-body">
     <h4 class="card-title"><a href="https://eesev9ie.github.io/de/schulchronik/2016/">2016</a></h4>
     <p class="card-text mb-4"></p>
@@ -642,7 +645,7 @@
       
       <div class="col-lg-4 col-sm-6 mb-5">
         <div class="card border-primary rounded-0 hover-shadow mb-5">
-  <img class="card-img-top rounded-0" src="/media/image.png" alt="2017">
+  
   <div class="card-body">
     <h4 class="card-title"><a href="https://eesev9ie.github.io/de/schulchronik/2017/">2017</a></h4>
     <p class="card-text mb-4">Wettbewerbserfolge 2017 Mathematikolympiade Landesrunde           Meurer, Calvin Klasse 5 3.</p>
@@ -654,7 +657,7 @@
       
       <div class="col-lg-4 col-sm-6 mb-5">
         <div class="card border-primary rounded-0 hover-shadow mb-5">
-  <img class="card-img-top rounded-0" src="/media/image.png" alt="2018">
+  
   <div class="card-body">
     <h4 class="card-title"><a href="https://eesev9ie.github.io/de/schulchronik/2018/">2018</a></h4>
     <p class="card-text mb-4"></p>
@@ -666,7 +669,7 @@
       
       <div class="col-lg-4 col-sm-6 mb-5">
         <div class="card border-primary rounded-0 hover-shadow mb-5">
-  <img class="card-img-top rounded-0" src="/media/image.png" alt="2019">
+  
   <div class="card-body">
     <h4 class="card-title"><a href="https://eesev9ie.github.io/de/schulchronik/2019/">2019</a></h4>
     <p class="card-text mb-4"></p>

@@ -30,6 +30,25 @@
   <link rel="shortcut icon" href="https://eesev9ie.github.io/media/favicon.png" type="image/x-icon">
   <link rel="icon" href="https://eesev9ie.github.io/media/favicon.png" type="image/x-icon">
 
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+  crossorigin=""/>
+
+
+
+  
+ <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+
+<style>
+  #map {
+    height: 500px;
+    border: 1px solid #aaa;
+    border-radius: 15px;
+  }
+</style>
+
 </head>
 <body>
 <!-- preloader start -->
@@ -179,69 +198,100 @@
     <div class="row">
       <div class="col-md-8">
         <ul class="list-inline custom-breadcrumb">
-          <li class="list-inline-item h2"><a class="text-primary font-secondary" href="https://eesev9ie.github.io/">Startseite</a></li>
-          <li class="list-inline-item h5"><i class="ti-angle-right text-white"></i></li>
-          <li class="list-inline-item text-white h3 font-secondary">2008</li>
+          <li class="list-inline-item h1"><a class="text-primary font-secondary" href="https://eesev9ie.github.io/">Startseite</a></li>
+          <li class="list-inline-item h2"><i class="ti-angle-right text-white"></i></li>
+          <li class="list-inline-item text-white h1 font-secondary">2008</li>
         </ul>
         <p class="text-lighten"></p>
       </div>
     </div>
   </div>
 </section>
+
 	
 
 
 <section class="section-sm">
   <div class="container">
+    
+        
     <div class="row">
       <div class="col-12 mb-4">
         
-        <img style="height: 500px;width: 100%;object-fit: cover;" src="/media/image.png"
-          class="img-fluid w-100">
-      </div>
-    </div>
-    <div>
-      <h2>2008</h2>
-    </div>
-    <div class="content">
-    <aside>
-      <nav id="TableOfContents">
-  <ul>
-    <li><a href="#20-jahre-jubiläum">20 Jahre Jubiläum</a></li>
-    <li><a href="#abschluss-der-schulhofsanierung">Abschluss der Schulhofsanierung</a></li>
-    <li><a href="#wettbewerbserfolge-2008">Wettbewerbserfolge 2008</a>
-      <ul>
-        <li><a href="#mathematik-olympiade">Mathematik-Olympiade</a></li>
-        <li><a href="#bundeswettbewerb-mathematik">Bundeswettbewerb Mathematik</a></li>
-        <li><a href="#bundeswettbewerb-informatik1-runde">Bundeswettbewerb Informatik(1. Runde)</a></li>
-        <li><a href="#schach">Schach</a></li>
-        <li><a href="#pysik-olympiade">Pysik-Olympiade</a></li>
-        <li><a href="#landeswettbewerb-latein-certamen-franckanium">Landeswettbewerb Latein Certamen Franckanium</a></li>
-        <li><a href="#chemkids">Chemkids</a></li>
-        <li><a href="#chemie---die-stimmt">Chemie - die stimmt!</a></li>
-        <li><a href="#landesolympiade-biologiechemie">Landesolympiade Biologie/Chemie</a></li>
-        <li><a href="#chemieolympiade">Chemieolympiade</a></li>
-        <li><a href="#landesfinale-deutscholympiade">Landesfinale Deutscholympiade</a></li>
-        <li><a href="#schüler-experementieren">Schüler Experementieren</a></li>
-        <li><a href="#jugend-forscht">Jugend Forscht</a></li>
-      </ul>
-    </li>
-    <li><a href="#sonstiges">Sonstiges</a></li>
-  </ul>
-</nav>
-    </aside>
+
+
+
+  
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="/js/load-photoswipe.js"></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css" integrity="sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
     </div>
     
-    <div class="row">
-      <div class="col-12 mb-4 content">
-        <p>Die 11. Biologie-Chemie-Olympiade brachte Paulin Wendler einen hervorragenden zweiten Platz ein, den sie sich mit einem Schülern vom Agricolagymnasium in Hohenmölsen teilte.
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+<p>Die 11. Biologie-Chemie-Olympiade brachte Paulin Wendler einen hervorragenden zweiten Platz ein, den sie sich mit einem Schülern vom Agricolagymnasium in Hohenmölsen teilte.
 Geehrt konnte sie in der restaurierten Aula werden, die nun endlich von zwei Kronleuchtern erhellt wird.
 Ebenso gewann Maximilian König die Silbermedallie bei der IJSO, dessen internationaler Austragungsort Korea war.
 Auch der Schulhof wurde in diesem Jahr saniert, wobei auf Ideen von Schülern eingegangen wurde.
 Eine weitere Meldung, die uns allen den Atem verschlagen hat, ist die Rettungsaktion, die Tobias Knörgen unter Einsatz seines Lebens durchführte. Ein Boot mit vier Kindern war gekentert und Tobias sah ein Mädchen, das verzweifelt gegen die Fluten kämpfte. Ohne lange nachzudenken ließ der Ruderer sein Boot ins Wasser, um dem Mädchen zu Hilfe zu eilen. Und obwohl auch sein Boot zerbrach kämpfte er weiter, um das Mädchen zu retten.
 Außerdem hatte sich Franziska Flegel dazu entschlossen, nach ihrem Abitur ein Projekt in Indien zu betreuen, dass Straßenkindern half. Hierfür wurden insgesamt 656€ von Schülern, Lehrern, Ehemaligen und Eltern gespendet, die direkt an Franziska Flegels Hilfsprojekt gingen.
 Einer der wohl wichtigsten Punkte dieses Jahr war das zwanzig jährige Jubiläum des Georg Cantor Gymnasiums. Eigens dafür wurde eine Festwoche geplant, die randvoll mit Vorträgen, Lesungen, Theateraufführungen und Gesprächsrunden war. Eigens für den zwanzigsten Geburtstag wurden von den Chronisten große Plakate in Bilderrahmen mit Impressionen aus zwanzig Jahren Schulgeschichte gestaltet, die Bilder von 1988 enthalten, sowie neue. Auch der Umzug ins neue Gebäude wurde illustriert. Es ist eine gesamte Zeitleiste enthalten, die 1986 beginnt und derzeit 2008 endet. Auch die Cantorpreisträger werden mit Bildern und besonderen Leistungen aufgelistet. Ebenso zeugen Zeitungsartikel von den zahlreichen Erfolgen der Schüler.</p>
-<h2 id="20-jahre-jubiläum">20 Jahre Jubiläum</h2>
+<div class="container">
+  <div class="card border-primary rounded-0 hover-shadow mb-5">
+    <div class="card-body">
+      <details>
+      <summary>20 Jahre Jubiläum</summary>
+      <div class="content"><p class="content">
 <p>Das GCG wird 20</p>
 <p>Dieser Artikel hätte vor 4 Jahren geschrieben werden müssen. Oh Gott, Schande über mich. Doch lieber spät als nie.</p>
 <p>Ab März 2007 galt es für die Arbeitsgruppe „20- jähriges Schuljubiläum“ eine Festwoche zu organisieren. Auf der Basis einer Analyse des 10- jährigen Bestehens des GCG konzipierten Herr Dr. Müller, Herr Kammel, Dr. Koch, Herr Weigt und Fr. Schmidt das inhaltliche Profil des Jubiläums. Es entstand die Idee neben den traditionellen Elementen unserer Kultur- und Wissenschaftswoche wie WPA Verteidigungen, musikalisch - literarischer Abend, Rezitatorenwettstreit und Galerie auch ein neues Element einzubauen. Es war und ist uns wichtig die ehemaligen Schüler mit den jetzigen Cantorianern zusammenzubringen. So hielten Excantorianer Schauvorlesungen in Physik und Chemie, diskutierten mit Cantorianern über das antike Theater, den Zusammenhang von Informatik und Psychologie und Wege im Ausland zu studieren bzw. eine Ausbildung zu machen. Ein Höhepunkt war die Talkrunde:
@@ -250,9 +300,29 @@ Die größte logistische Herausforderung sahen wir im Organisieren des Absolvent
 In diesem Sinne freuen wir uns auf das 25- jährige Jubiläum des GCG.</p>
 <p>Kerstin Schmidt(17. Juli 2012)</p>
 <p><img src="/media/schulchronik/2008/jubil20.png" alt="Plan"></p>
-<h2 id="abschluss-der-schulhofsanierung">Abschluss der Schulhofsanierung</h2>
+</p></div>
+      </details>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="card border-primary rounded-0 hover-shadow mb-5">
+    <div class="card-body">
+      <details>
+      <summary>Abschluss der Schulhofsanierung</summary>
+      <div class="content"><p class="content">
 <p><img src="/media/schulchronik/2008/Schulhof_erh%C3%A4lt_gro%C3%9Fes_Schachbrett.png" alt="Schulhof Zeitung"></p>
-<h2 id="wettbewerbserfolge-2008">Wettbewerbserfolge 2008</h2>
+</p></div>
+      </details>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="card border-primary rounded-0 hover-shadow mb-5">
+    <div class="card-body">
+      <details>
+      <summary>Wettbewerbserfolge 2008</summary>
+      <div class="content"><p class="content">
 <h3 id="mathematik-olympiade">Mathematik-Olympiade</h3>
 <h4 id="landesrunde">Landesrunde</h4>
 <table>
@@ -709,6 +779,11 @@ In diesem Sinne freuen wir uns auf das 25- jährige Jubiläum des GCG.</p>
 <ul>
 <li>Übernahme rekonstruierter Turnhalle und Aula</li>
 </ul>
+</p></div>
+      </details>
+    </div>
+  </div>
+</div>
 
       </div>
       

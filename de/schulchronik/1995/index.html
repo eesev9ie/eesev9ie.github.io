@@ -30,6 +30,25 @@
   <link rel="shortcut icon" href="https://eesev9ie.github.io/media/favicon.png" type="image/x-icon">
   <link rel="icon" href="https://eesev9ie.github.io/media/favicon.png" type="image/x-icon">
 
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+  crossorigin=""/>
+
+
+
+  
+ <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+
+<style>
+  #map {
+    height: 500px;
+    border: 1px solid #aaa;
+    border-radius: 15px;
+  }
+</style>
+
 </head>
 <body>
 <!-- preloader start -->
@@ -179,77 +198,26 @@
     <div class="row">
       <div class="col-md-8">
         <ul class="list-inline custom-breadcrumb">
-          <li class="list-inline-item h2"><a class="text-primary font-secondary" href="https://eesev9ie.github.io/">Startseite</a></li>
-          <li class="list-inline-item h5"><i class="ti-angle-right text-white"></i></li>
-          <li class="list-inline-item text-white h3 font-secondary">1995</li>
+          <li class="list-inline-item h1"><a class="text-primary font-secondary" href="https://eesev9ie.github.io/">Startseite</a></li>
+          <li class="list-inline-item h2"><i class="ti-angle-right text-white"></i></li>
+          <li class="list-inline-item text-white h1 font-secondary">1995</li>
         </ul>
         <p class="text-lighten"></p>
       </div>
     </div>
   </div>
 </section>
+
 	
 
 
 <section class="section-sm">
   <div class="container">
+    
+        
     <div class="row">
       <div class="col-12 mb-4">
         
-        <img style="height: 500px;width: 100%;object-fit: cover;" src="/media/image.png"
-          class="img-fluid w-100">
-      </div>
-    </div>
-    <div>
-      <h2>1995</h2>
-    </div>
-    <div class="content">
-    <aside>
-      <nav id="TableOfContents">
-  <ul>
-    <li><a href="#einführung-des-cantorpreises">Einführung des Cantorpreises</a></li>
-    <li><a href="#festwoche-zum-150-geburtstag-von-georg-cantor">Festwoche zum 150. Geburtstag von Georg Cantor</a></li>
-    <li><a href="#wettbewerbserfolge-1995">Wettbewerbserfolge 1995</a>
-      <ul>
-        <li><a href="#jugend-forscht">Jugend Forscht</a></li>
-        <li><a href="#landesrunde">Landesrunde</a></li>
-        <li><a href="#mathematik-olympiade">Mathematik-Olympiade</a></li>
-        <li><a href="#schüler-experementieren">Schüler Experementieren</a></li>
-      </ul>
-    </li>
-    <li><a href="#sonstiges">Sonstiges</a></li>
-  </ul>
-</nav>
-    </aside>
-    </div>
-    
-    <div class="row">
-      <div class="col-12 mb-4 content">
-        <h2 id="einführung-des-cantorpreises">Einführung des Cantorpreises</h2>
-<p>Seit 1995 wird jährlich ein besonderer „Grübler“ unserer Schule anlässlich des Geburtstages von Georg Cantor mit dem Cantor-Preis geehrt.
-Der Cantor-Preisträger erhält einen vom Förderverein gestifteten Zinnbecher mit Motiven der Stadt Halle und 150 € Preisgeld, gesponsert von der Sparkasse.
-Die Fachbereiche dürfen Schüler vorschlagen, die die Kriterien erfüllen. Sie sollten sehr gute schulische Leistungen erbringen, besonders auf mathematisch- naturwissenschaftlichem Gebiet. Weiterhin sind vielseitiges außerschulisches Engagement und Erfolge bei Schülerwettbewerben wünschenswert. Der Vorstand des Schulfördervereins trifft dann die Entscheidung.</p>
-<p><img src="/media/schulchronik/1995/cantorpreis.png" alt="Cantorpreis"></p>
-<h2 id="festwoche-zum-150-geburtstag-von-georg-cantor">Festwoche zum 150. Geburtstag von Georg Cantor</h2>
-<p>
-
-
-<div class="gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
-	  
-  
-<link rel="stylesheet" href="/css/hugo-easy-gallery.css" />
-<div class="box" >
-  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <div class="img" style="background-image: url('/media/schulchronik/1995/cantorgymnasiumfeierte.bmp');">
-      <img itemprop="thumbnail" src="/media/schulchronik/1995/cantorgymnasiumfeierte.bmp" />
-    </div>
-    <a href="/media/schulchronik/1995/cantorgymnasiumfeierte.bmp" itemprop="contentUrl"></a>
-  </figure>
-</div>
-
-
-</div>
-
 
 
 
@@ -310,8 +278,50 @@ Die Fachbereiche dürfen Schüler vorschlagen, die die Kriterien erfüllen. Sie 
     </div>
 </div>
 
-</p>
-<h2 id="wettbewerbserfolge-1995">Wettbewerbserfolge 1995</h2>
+
+<div class="container">
+  <div class="card border-primary rounded-0 hover-shadow mb-5">
+    <div class="card-body">
+      <details>
+      <summary>Einführung des Cantorpreises</summary>
+      <div class="content"><p class="content">
+<p>Seit 1995 wird jährlich ein besonderer „Grübler“ unserer Schule anlässlich des Geburtstages von Georg Cantor mit dem Cantor-Preis geehrt.
+Der Cantor-Preisträger erhält einen vom Förderverein gestifteten Zinnbecher mit Motiven der Stadt Halle und 150 € Preisgeld, gesponsert von der Sparkasse.
+Die Fachbereiche dürfen Schüler vorschlagen, die die Kriterien erfüllen. Sie sollten sehr gute schulische Leistungen erbringen, besonders auf mathematisch- naturwissenschaftlichem Gebiet. Weiterhin sind vielseitiges außerschulisches Engagement und Erfolge bei Schülerwettbewerben wünschenswert. Der Vorstand des Schulfördervereins trifft dann die Entscheidung.</p>
+<p><img src="/media/schulchronik/1995/cantorpreis.png" alt="Cantorpreis"></p>
+</p></div>
+      </details>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="card border-primary rounded-0 hover-shadow mb-5">
+    <div class="card-body">
+      <details>
+      <summary>Festwoche zum 150. Geburtstag von Georg Cantor</summary>
+      <div class="content"><p class="content">
+<div class="gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
+<link rel="stylesheet" href="/css/hugo-easy-gallery.css" />
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/media/schulchronik/1995/cantorgymnasiumfeierte.bmp');">
+      <img itemprop="thumbnail" src="/media/schulchronik/1995/cantorgymnasiumfeierte.bmp" />
+    </div>
+    <a href="/media/schulchronik/1995/cantorgymnasiumfeierte.bmp" itemprop="contentUrl"></a>
+  </figure>
+</div>
+</div>
+</p></div>
+      </details>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="card border-primary rounded-0 hover-shadow mb-5">
+    <div class="card-body">
+      <details>
+      <summary>Wettbewerbserfolge 1995</summary>
+      <div class="content"><p class="content">
 <h3 id="jugend-forscht">Jugend Forscht</h3>
 <h3 id="landesrunde">Landesrunde</h3>
 <table>
@@ -481,6 +491,11 @@ Die Fachbereiche dürfen Schüler vorschlagen, die die Kriterien erfüllen. Sie 
 <ul>
 <li>Erstes Spezialistenlager</li>
 </ul>
+</p></div>
+      </details>
+    </div>
+  </div>
+</div>
 
       </div>
       

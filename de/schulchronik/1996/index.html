@@ -30,6 +30,25 @@
   <link rel="shortcut icon" href="https://eesev9ie.github.io/media/favicon.png" type="image/x-icon">
   <link rel="icon" href="https://eesev9ie.github.io/media/favicon.png" type="image/x-icon">
 
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+  crossorigin=""/>
+
+
+
+  
+ <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+
+<style>
+  #map {
+    height: 500px;
+    border: 1px solid #aaa;
+    border-radius: 15px;
+  }
+</style>
+
 </head>
 <body>
 <!-- preloader start -->
@@ -179,57 +198,110 @@
     <div class="row">
       <div class="col-md-8">
         <ul class="list-inline custom-breadcrumb">
-          <li class="list-inline-item h2"><a class="text-primary font-secondary" href="https://eesev9ie.github.io/">Startseite</a></li>
-          <li class="list-inline-item h5"><i class="ti-angle-right text-white"></i></li>
-          <li class="list-inline-item text-white h3 font-secondary">1996</li>
+          <li class="list-inline-item h1"><a class="text-primary font-secondary" href="https://eesev9ie.github.io/">Startseite</a></li>
+          <li class="list-inline-item h2"><i class="ti-angle-right text-white"></i></li>
+          <li class="list-inline-item text-white h1 font-secondary">1996</li>
         </ul>
         <p class="text-lighten"></p>
       </div>
     </div>
   </div>
 </section>
+
 	
 
 
 <section class="section-sm">
   <div class="container">
+    
+        
     <div class="row">
       <div class="col-12 mb-4">
         
-        <img style="height: 500px;width: 100%;object-fit: cover;" src="/media/image.png"
-          class="img-fluid w-100">
-      </div>
-    </div>
-    <div>
-      <h2>1996</h2>
-    </div>
-    <div class="content">
-    <aside>
-      <nav id="TableOfContents">
-  <ul>
-    <li><a href="#kooperationsvereinbarung-mit-der-martin-luther-universität">Kooperationsvereinbarung mit der Martin-Luther-Universität</a></li>
-    <li><a href="#wettbewerbserfolge-1996">Wettbewerbserfolge 1996</a>
-      <ul>
-        <li><a href="#jugend-forscht">Jugend Forscht</a></li>
-        <li><a href="#mathematik-olympiade">Mathematik-Olympiade</a></li>
-        <li><a href="#internationale-mathematik-olympiade-1996">Internationale Mathematik-Olympiade 1996</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
-    </aside>
+
+
+
+  
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="/js/load-photoswipe.js"></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css" integrity="sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
     </div>
     
-    <div class="row">
-      <div class="col-12 mb-4 content">
-        <p>In diesem Jahr hat sich der Förderverein der Schule eine besondere Auszeichnung einfallen lassen: den Cantor-Preis. Den ersten bekam Robert Strich, der im März dieses Jahres auch Sieger im Bundeswettbewerb Mathematik wurde. Seitdem wird jedes Jahr der engagierteste und erfolgreichste Schüler des Abiturjahrgangs mit dem Cantor-Preis geehrt.</p>
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+<p>In diesem Jahr hat sich der Förderverein der Schule eine besondere Auszeichnung einfallen lassen: den Cantor-Preis. Den ersten bekam Robert Strich, der im März dieses Jahres auch Sieger im Bundeswettbewerb Mathematik wurde. Seitdem wird jedes Jahr der engagierteste und erfolgreichste Schüler des Abiturjahrgangs mit dem Cantor-Preis geehrt.</p>
 <p>Beim Bundeswettbewerb „Jugend forscht“ waren 1996 vor allem Ingolf Zies mit zwei 1. Preisen und Tobias Volk mit einem Sonderpreis erfolgreich.</p>
 <p>Während der Cantor-Tage anlässlich des 151. Geburtstages des Namensgebers unserer Schule im März 1996 wurde die Kooperation der Martin-Luther-Universität und des Georg-Cantor-Gymnasiums vereinbart. So wollen die beiden Bildungsstätten gemeinsam naturwissenschaftlich Interessierte fördern.</p>
 <p>Zudem wurden in den Ferien verschiedene Spezialistenlager durchgeführt, die sich, wie auch der Tag der offenen Tür, großer Beliebtheit erfreuten.</p>
 <p><img src="/media/schulchronik/1996/robertstrich.png" alt="Robertstrich"></p>
-<h2 id="kooperationsvereinbarung-mit-der-martin-luther-universität">Kooperationsvereinbarung mit der Martin-Luther-Universität</h2>
+<div class="container">
+  <div class="card border-primary rounded-0 hover-shadow mb-5">
+    <div class="card-body">
+      <details>
+      <summary>Kooperationsvereinbarung mit der Martin-Luther-Universität</summary>
+      <div class="content"><p class="content">
 <p><img src="/media/schulchronik/1996/mlu_1.png" alt="Kooperation MLU"></p>
-<h2 id="wettbewerbserfolge-1996">Wettbewerbserfolge 1996</h2>
+</p></div>
+      </details>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="card border-primary rounded-0 hover-shadow mb-5">
+    <div class="card-body">
+      <details>
+      <summary>Wettbewerbserfolge 1996</summary>
+      <div class="content"><p class="content">
 <h3 id="jugend-forscht">Jugend Forscht</h3>
 <h4 id="bundesrunde">Bundesrunde</h4>
 <table>
@@ -407,6 +479,11 @@
 </tr>
 </tbody>
 </table>
+</p></div>
+      </details>
+    </div>
+  </div>
+</div>
 
       </div>
       

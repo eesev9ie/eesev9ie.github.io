@@ -30,6 +30,25 @@
   <link rel="shortcut icon" href="https://eesev9ie.github.io/media/favicon.png" type="image/x-icon">
   <link rel="icon" href="https://eesev9ie.github.io/media/favicon.png" type="image/x-icon">
 
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+  crossorigin=""/>
+
+
+
+  
+ <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+
+<style>
+  #map {
+    height: 500px;
+    border: 1px solid #aaa;
+    border-radius: 15px;
+  }
+</style>
+
 </head>
 <body>
 <!-- preloader start -->
@@ -179,58 +198,119 @@
     <div class="row">
       <div class="col-md-8">
         <ul class="list-inline custom-breadcrumb">
-          <li class="list-inline-item h2"><a class="text-primary font-secondary" href="https://eesev9ie.github.io/">Startseite</a></li>
-          <li class="list-inline-item h5"><i class="ti-angle-right text-white"></i></li>
-          <li class="list-inline-item text-white h3 font-secondary">1994</li>
+          <li class="list-inline-item h1"><a class="text-primary font-secondary" href="https://eesev9ie.github.io/">Startseite</a></li>
+          <li class="list-inline-item h2"><i class="ti-angle-right text-white"></i></li>
+          <li class="list-inline-item text-white h1 font-secondary">1994</li>
         </ul>
         <p class="text-lighten"></p>
       </div>
     </div>
   </div>
 </section>
+
 	
 
 
 <section class="section-sm">
   <div class="container">
+    
+        
     <div class="row">
       <div class="col-12 mb-4">
         
-        <img style="height: 500px;width: 100%;object-fit: cover;" src="/media/image.png"
-          class="img-fluid w-100">
-      </div>
-    </div>
-    <div>
-      <h2>1994</h2>
-    </div>
-    <div class="content">
-    <aside>
-      <nav id="TableOfContents">
-  <ul>
-    <li><a href="#beginn-des-unterrichts-nach-neuen-rahmenrichtlinien">Beginn des Unterrichts nach neuen Rahmenrichtlinien</a></li>
-    <li><a href="#einführung-der-korrespondenzzirkel">Einführung der Korrespondenzzirkel</a></li>
-    <li><a href="#wettbewerbserfolge-1994">Wettbewerbserfolge 1994</a>
-      <ul>
-        <li><a href="#jugend-forscht">Jugend Forscht</a></li>
-        <li><a href="#mathematik-olympiade">Mathematik-Olympiade</a></li>
-        <li><a href="#internationale-physik-olympiade">Internationale Physik-Olympiade</a></li>
-        <li><a href="#v-internationale-biologieolympiade-in-bulgarien">V. Internationale Biologieolympiade in Bulgarien</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
-    </aside>
+
+
+
+  
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="/js/load-photoswipe.js"></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css" integrity="sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
     </div>
     
-    <div class="row">
-      <div class="col-12 mb-4 content">
-        <p>Das Jahr 1994 war ein bedeutungsvolles, was die internationale Umgebung des GCGs anging und auch immer noch angeht, denn ohne, dass ein Schüler der 10. Klasse ein Jahr in Chicago verbracht hätte, wäre wohl auch folgenden Schülern ihr Traum von Amerika nie ermöglicht worden. Michael Schultz erregte damit so ein Aufsehen, dass die MZ sogar vereinzelte lose Briefe in einigen Ausgaben mit abdruckte und die Story zur Sensation machte, sodass er sich bestimmt auch heute noch sehr gut an seine Zeit in den Staaten erinnern kann.</p>
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+<p>Das Jahr 1994 war ein bedeutungsvolles, was die internationale Umgebung des GCGs anging und auch immer noch angeht, denn ohne, dass ein Schüler der 10. Klasse ein Jahr in Chicago verbracht hätte, wäre wohl auch folgenden Schülern ihr Traum von Amerika nie ermöglicht worden. Michael Schultz erregte damit so ein Aufsehen, dass die MZ sogar vereinzelte lose Briefe in einigen Ausgaben mit abdruckte und die Story zur Sensation machte, sodass er sich bestimmt auch heute noch sehr gut an seine Zeit in den Staaten erinnern kann.</p>
 <p>Sehr großen Anklang fand in diesem Jahr der Tag der offenen Tür im November, bei dem sich Eltern und Schüler der zukünftigen fünften Klassen informieren und anmelden konnten. Dabei beeindruckten vor allem die technische Ausstattung und Belege über zahlreiche Preise in Schülerwettbewerben.</p>
-<h2 id="beginn-des-unterrichts-nach-neuen-rahmenrichtlinien">Beginn des Unterrichts nach neuen Rahmenrichtlinien</h2>
+<div class="container">
+  <div class="card border-primary rounded-0 hover-shadow mb-5">
+    <div class="card-body">
+      <details>
+      <summary>Beginn des Unterrichts nach neuen Rahmenrichtlinien</summary>
+      <div class="content"><p class="content">
 <p>Nach Abschluss der umfangreichen konzeptionellen Arbeit begann in diesem Jahr nun auch der Unterricht entsprechend der neuen Rahmenrichtlinien. Dies beinhaltet eine modifizierte Stundentafel mit vertiefenderem Unterricht in den naturwissenschaftlichen Fächern in Bezug auf unser Ausbildungsprofil.</p>
-<h2 id="einführung-der-korrespondenzzirkel">Einführung der Korrespondenzzirkel</h2>
+</p></div>
+      </details>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="card border-primary rounded-0 hover-shadow mb-5">
+    <div class="card-body">
+      <details>
+      <summary>Einführung der Korrespondenzzirkel</summary>
+      <div class="content"><p class="content">
 <p>Im Auftrag des Kultusministeriums des Landes Sachsen-Anhalt fördert das Georg-Cantor-Gymnasium interessierte und talentierte Schüler in Form einer brieflichen Korrespondenz über mathematisch-naturwissenschaftliche Aufgaben und Probleme. Interessierte Schülerinnen und Schüler der 7., 8. und 9. Klassen erhalten drei- bis viermal pro Schuljahr interessante und schwierige Aufgaben und Probleme zugeschickt und senden ihre Lösungen an das Georg-Cantor-Gymnasium. Die Lösungen und eine Punktbewertung erhalten die beteiligten Schüler mit der nächsten Runde der Aufgaben zugeschickt. Am Ende des Schuljahres bzw. an geeigneten Ferientagen lädt das Georg-Cantor-Gymnasium zu einem Treffen aller Teilnehmer ein. Neben der gemeinsamen Diskussion über Fragen der effektiven Methodik des Lösens von Problemaufgaben können auch experimentelle Fragen und Probleme gestellt und gelöst werden. Auch Exkursionen zu wissenschaftlichen Einrichtungen der im Raum Halle/Merseburg ansässigen Universitäten und Hochschulen stehen auf dem Programm. Im Mittelpunkt dieser Veranstaltung steht jedoch der Erfahrungsaustausch zwischen den Teilnehmern des Zirkels sowie der persönliche Kontakt mit den betreuenden Lehrern der Fächer Mathematik, Physik, Chemie und Biologie des Georg-Cantor-Gymnasiums. Dieser Zirkel ist für alle Schülerinnen und Schüler des Landes Sachsen-Anhalt offen.</p>
-<h2 id="wettbewerbserfolge-1994">Wettbewerbserfolge 1994</h2>
+</p></div>
+      </details>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="card border-primary rounded-0 hover-shadow mb-5">
+    <div class="card-body">
+      <details>
+      <summary>Wettbewerbserfolge 1994</summary>
+      <div class="content"><p class="content">
 <h3 id="jugend-forscht">Jugend Forscht</h3>
 <h4 id="landesebene">Landesebene</h4>
 <table>
@@ -371,6 +451,11 @@
 </tr>
 </tbody>
 </table>
+</p></div>
+      </details>
+    </div>
+  </div>
+</div>
 
       </div>
       
